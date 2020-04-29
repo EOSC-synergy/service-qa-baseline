@@ -1,0 +1,22 @@
+[
+  {
+    "type": "legislation",
+    "URL": "https://www.ietf.org/rfc/rfc2119.txt",
+    "title": "Key words for use in RFCs to Indicate Requirement Levels",
+    "issued": {
+      "date-parts": [
+        [
+          1997
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "Scott",
+        "family": "Bradner"
+      }
+    ],
+    "note": "This CSL JSON Item was loaded by Manubot v0.3.1 from a manual reference file.\nmanual_reference_filename: manual-references.json\nstandard_id: url:https://www.ietf.org/rfc/rfc2119.txt",
+    "id": "Ms8G1A12"
+  }
+]
