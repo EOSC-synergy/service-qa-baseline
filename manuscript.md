@@ -95,11 +95,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://EOSC-synergy.github.io/service-qa-baseline/v/534986884a7e54cdf4490b46ec65d62cb98478ce/" />
+  <link rel="alternate" type="text/html" href="https://EOSC-synergy.github.io/service-qa-baseline/v/cefc790d00cda9d4417f90b3ff2905899baccb4d/" />
 
-  <meta name="manubot_html_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/534986884a7e54cdf4490b46ec65d62cb98478ce/" />
+  <meta name="manubot_html_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/cefc790d00cda9d4417f90b3ff2905899baccb4d/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/534986884a7e54cdf4490b46ec65d62cb98478ce/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/cefc790d00cda9d4417f90b3ff2905899baccb4d/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
