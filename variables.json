@@ -11,15 +11,8 @@
     ],
     "lang": "en-US",
     "date-meta": "2020-04-29",
-    "author-meta": [
-      "Pablo Orviz",
-      "Mario David",
-      "Jorge Gomes",
-      "Joao Pina",
-      "Samuel Bernardo",
-      "Isabel Campos"
-    ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"A set of Common Service Quality Assurance Baseline Criteria for Research Projects\" />\n<meta name=\"citation_title\" content=\"A set of Common Service Quality Assurance Baseline Criteria for Research Projects\" />\n<meta property=\"og:title\" content=\"A set of Common Service Quality Assurance Baseline Criteria for Research Projects\" />\n<meta property=\"twitter:title\" content=\"A set of Common Service Quality Assurance Baseline Criteria for Research Projects\" />\n<meta name=\"dc.date\" content=\"2020-04-29\" />\n<meta name=\"citation_publication_date\" content=\"2020-04-29\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Pablo Orviz\" />\n<meta name=\"citation_author_institution\" content=\"Spanish National Research Council (CSIC)\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Physics of Cantabria (IFCA)\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2473-6405\" />\n<meta name=\"citation_author\" content=\"Mario David\" />\n<meta name=\"citation_author_institution\" content=\"Laboratory of Instrumentation and Experimental Particle Physics (LIP)\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1802-5356\" />\n<meta name=\"citation_author\" content=\"Jorge Gomes\" />\n<meta name=\"citation_author_institution\" content=\"Laboratory of Instrumentation and Experimental Particle Physics (LIP)\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9142-2596\" />\n<meta name=\"citation_author\" content=\"Joao Pina\" />\n<meta name=\"citation_author_institution\" content=\"Laboratory of Instrumentation and Experimental Particle Physics (LIP)\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8959-5044\" />\n<meta name=\"citation_author\" content=\"Samuel Bernardo\" />\n<meta name=\"citation_author_institution\" content=\"Laboratory of Instrumentation and Experimental Particle Physics (LIP)\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-6175-4012\" />\n<meta name=\"citation_author\" content=\"Isabel Campos\" />\n<meta name=\"citation_author_institution\" content=\"Spanish National Research Council (CSIC)\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Physics of Cantabria (IFCA)\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9350-0383\" />\n<link rel=\"canonical\" href=\"https://EOSC-synergy.github.io/service-qa-baseline/\" />\n<meta property=\"og:url\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/\" />\n<meta property=\"twitter:url\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/\" />\n<meta name=\"citation_pdf_url\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://EOSC-synergy.github.io/service-qa-baseline/v/cefc790d00cda9d4417f90b3ff2905899baccb4d/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/v/cefc790d00cda9d4417f90b3ff2905899baccb4d/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/v/cefc790d00cda9d4417f90b3ff2905899baccb4d/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "author-meta": [],
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"A set of Common Service Quality Assurance Baseline Criteria for Research Projects\" />\n<meta name=\"citation_title\" content=\"A set of Common Service Quality Assurance Baseline Criteria for Research Projects\" />\n<meta property=\"og:title\" content=\"A set of Common Service Quality Assurance Baseline Criteria for Research Projects\" />\n<meta property=\"twitter:title\" content=\"A set of Common Service Quality Assurance Baseline Criteria for Research Projects\" />\n<meta name=\"dc.date\" content=\"2020-04-29\" />\n<meta name=\"citation_publication_date\" content=\"2020-04-29\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<link rel=\"canonical\" href=\"https://EOSC-synergy.github.io/service-qa-baseline/\" />\n<meta property=\"og:url\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/\" />\n<meta property=\"twitter:url\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/\" />\n<meta name=\"citation_pdf_url\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://EOSC-synergy.github.io/service-qa-baseline/v/76c491d86a24c271d1fecc8ac38595ccbc26e844/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/v/76c491d86a24c271d1fecc8ac38595ccbc26e844/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/v/76c491d86a24c271d1fecc8ac38595ccbc26e844/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -30,116 +23,76 @@
   },
   "manubot": {
     "date": "April 29, 2020",
-    "authors": [
-      {
-        "github": "orviz",
-        "name": "Pablo Orviz",
-        "orcid": "0000-0002-2473-6405",
-        "email": "orviz@ifca.unican.es",
-        "affiliations": [
-          "Spanish National Research Council (CSIC)",
-          "Institute of Physics of Cantabria (IFCA)"
-        ],
-        "affiliation_numbers": [
-          1,
-          2
-        ]
-      },
-      {
-        "github": "mariojmdavid",
-        "name": "Mario David",
-        "orcid": "0000-0003-1802-5356",
-        "email": "mario@lip.pt",
-        "affiliations": [
-          "Laboratory of Instrumentation and Experimental Particle Physics (LIP)"
-        ],
-        "affiliation_numbers": [
-          3
-        ]
-      },
-      {
-        "github": "jorge-lip",
-        "name": "Jorge Gomes",
-        "orcid": "0000-0002-9142-2596",
-        "email": "jorge@lip.pt",
-        "affiliations": [
-          "Laboratory of Instrumentation and Experimental Particle Physics (LIP)"
-        ],
-        "affiliation_numbers": [
-          3
-        ]
-      },
-      {
-        "github": "jopina",
-        "name": "Joao Pina",
-        "orcid": "0000-0001-8959-5044",
-        "email": "jpina@lip.pt",
-        "affiliations": [
-          "Laboratory of Instrumentation and Experimental Particle Physics (LIP)"
-        ],
-        "affiliation_numbers": [
-          3
-        ]
-      },
-      {
-        "github": "samuelbernardolip",
-        "name": "Samuel Bernardo",
-        "orcid": "0000-0002-6175-4012",
-        "email": "samuel@lip.pt",
-        "affiliations": [
-          "Laboratory of Instrumentation and Experimental Particle Physics (LIP)"
-        ],
-        "affiliation_numbers": [
-          3
-        ]
-      },
-      {
-        "github": "isabel-campos-plasencia",
-        "name": "Isabel Campos",
-        "orcid": "0000-0002-9350-0383",
-        "email": "isabel@campos-it.es",
-        "affiliations": [
-          "Spanish National Research Council (CSIC)",
-          "Institute of Physics of Cantabria (IFCA)"
-        ],
-        "affiliation_numbers": [
-          1,
-          2
-        ]
-      }
-    ],
-    "affiliations": [
-      {
-        "affiliation": "Spanish National Research Council (CSIC)",
-        "affiliation_number": 1
-      },
-      {
-        "affiliation": "Institute of Physics of Cantabria (IFCA)",
-        "affiliation_number": 2
-      },
-      {
-        "affiliation": "Laboratory of Instrumentation and Experimental Particle Physics (LIP)",
-        "affiliation_number": 3
-      }
-    ],
+    "authors": [],
     "ci_source": {
       "provider": "github",
       "repo_slug": "EOSC-synergy/service-qa-baseline",
       "repo_owner": "EOSC-synergy",
       "repo_name": "service-qa-baseline",
-      "commit": "cefc790d00cda9d4417f90b3ff2905899baccb4d",
-      "triggering_commit": "cefc790d00cda9d4417f90b3ff2905899baccb4d",
-      "build_url": "https://github.com/EOSC-synergy/service-qa-baseline/commit/cefc790d00cda9d4417f90b3ff2905899baccb4d/checks",
+      "commit": "76c491d86a24c271d1fecc8ac38595ccbc26e844",
+      "triggering_commit": "76c491d86a24c271d1fecc8ac38595ccbc26e844",
+      "build_url": "https://github.com/EOSC-synergy/service-qa-baseline/commit/76c491d86a24c271d1fecc8ac38595ccbc26e844/checks",
       "job_url": "https://github.com/EOSC-synergy/service-qa-baseline/runs/run2"
     },
     "html_url": "https://EOSC-synergy.github.io/service-qa-baseline/",
     "pdf_url": "https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf",
-    "html_url_versioned": "https://EOSC-synergy.github.io/service-qa-baseline/v/cefc790d00cda9d4417f90b3ff2905899baccb4d/",
-    "pdf_url_versioned": "https://EOSC-synergy.github.io/service-qa-baseline/v/cefc790d00cda9d4417f90b3ff2905899baccb4d/manuscript.pdf",
+    "html_url_versioned": "https://EOSC-synergy.github.io/service-qa-baseline/v/76c491d86a24c271d1fecc8ac38595ccbc26e844/",
+    "pdf_url_versioned": "https://EOSC-synergy.github.io/service-qa-baseline/v/76c491d86a24c271d1fecc8ac38595ccbc26e844/manuscript.pdf",
     "manubot_version": "0.3.1",
     "rootstock_commit": "2c2868957798937f5203248bdfb9e414c8fd0ad1",
     "manuscript_stats": {
       "word_count": 1812
     }
-  }
+  },
+  "date": "29-04-2020",
+  "author": [
+    {
+      "name": "Pablo Orviz",
+      "github": "orviz",
+      "orcid": "0000-0002-2473-6405",
+      "email": "orviz@ifca.unican.es",
+      "affiliations": [
+        "Spanish National Research Council (CSIC)",
+        "Institute of Physics of Cantabria (IFCA)"
+      ]
+    },
+    {
+      "name": "Mario David",
+      "github": "mariojmdavid",
+      "orcid": "0000-0003-1802-5356",
+      "email": "mario@lip.pt",
+      "affiliation": "Laboratory of Instrumentation and Experimental Particle Physics (LIP)"
+    },
+    {
+      "name": "Jorge Gomes",
+      "github": "jorge-lip",
+      "orcid": "0000-0002-9142-2596",
+      "email": "jorge@lip.pt",
+      "affiliation": "Laboratory of Instrumentation and Experimental Particle Physics (LIP)"
+    },
+    {
+      "name": "Joao Pina",
+      "github": "jopina",
+      "orcid": "0000-0001-8959-5044",
+      "email": "jpina@lip.pt",
+      "affiliation": "Laboratory of Instrumentation and Experimental Particle Physics (LIP)"
+    },
+    {
+      "name": "Samuel Bernardo",
+      "github": "samuelbernardolip",
+      "orcid": "0000-0002-6175-4012",
+      "email": "samuel@lip.pt",
+      "affiliation": "Laboratory of Instrumentation and Experimental Particle Physics (LIP)"
+    },
+    {
+      "name": "Isabel Campos",
+      "github": "isabel-campos-plasencia",
+      "orcid": "0000-0002-9350-0383",
+      "email": "isabel@campos-it.es",
+      "affiliations": [
+        "Spanish National Research Council (CSIC)",
+        "Institute of Physics of Cantabria (IFCA)"
+      ]
+    }
+  ]
 }

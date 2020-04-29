@@ -1,11 +1,5 @@
 ---
-author-meta:
-- Pablo Orviz
-- Mario David
-- Jorge Gomes
-- Joao Pina
-- Samuel Bernardo
-- Isabel Campos
+author-meta: []
 bibliography:
 - content/manual-references.json
 date-meta: '2020-04-29'
@@ -43,46 +37,6 @@ header-includes: '<!--
 
   <meta name="citation_technical_report_institution" content="Manubot" />
 
-  <meta name="citation_author" content="Pablo Orviz" />
-
-  <meta name="citation_author_institution" content="Spanish National Research Council (CSIC)" />
-
-  <meta name="citation_author_institution" content="Institute of Physics of Cantabria (IFCA)" />
-
-  <meta name="citation_author_orcid" content="0000-0002-2473-6405" />
-
-  <meta name="citation_author" content="Mario David" />
-
-  <meta name="citation_author_institution" content="Laboratory of Instrumentation and Experimental Particle Physics (LIP)" />
-
-  <meta name="citation_author_orcid" content="0000-0003-1802-5356" />
-
-  <meta name="citation_author" content="Jorge Gomes" />
-
-  <meta name="citation_author_institution" content="Laboratory of Instrumentation and Experimental Particle Physics (LIP)" />
-
-  <meta name="citation_author_orcid" content="0000-0002-9142-2596" />
-
-  <meta name="citation_author" content="Joao Pina" />
-
-  <meta name="citation_author_institution" content="Laboratory of Instrumentation and Experimental Particle Physics (LIP)" />
-
-  <meta name="citation_author_orcid" content="0000-0001-8959-5044" />
-
-  <meta name="citation_author" content="Samuel Bernardo" />
-
-  <meta name="citation_author_institution" content="Laboratory of Instrumentation and Experimental Particle Physics (LIP)" />
-
-  <meta name="citation_author_orcid" content="0000-0002-6175-4012" />
-
-  <meta name="citation_author" content="Isabel Campos" />
-
-  <meta name="citation_author_institution" content="Spanish National Research Council (CSIC)" />
-
-  <meta name="citation_author_institution" content="Institute of Physics of Cantabria (IFCA)" />
-
-  <meta name="citation_author_orcid" content="0000-0002-9350-0383" />
-
   <link rel="canonical" href="https://EOSC-synergy.github.io/service-qa-baseline/" />
 
   <meta property="og:url" content="https://EOSC-synergy.github.io/service-qa-baseline/" />
@@ -95,11 +49,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://EOSC-synergy.github.io/service-qa-baseline/v/cefc790d00cda9d4417f90b3ff2905899baccb4d/" />
+  <link rel="alternate" type="text/html" href="https://EOSC-synergy.github.io/service-qa-baseline/v/76c491d86a24c271d1fecc8ac38595ccbc26e844/" />
 
-  <meta name="manubot_html_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/cefc790d00cda9d4417f90b3ff2905899baccb4d/" />
+  <meta name="manubot_html_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/76c491d86a24c271d1fecc8ac38595ccbc26e844/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/cefc790d00cda9d4417f90b3ff2905899baccb4d/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/76c491d86a24c271d1fecc8ac38595ccbc26e844/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -138,12 +92,62 @@ _A DOI-citable version of this manuscript is available at <http://hdl.handle.net
 <small><em>
 This manuscript
 was automatically generated
-on .
+on 29-04-2020.
 </em></small>
 
 ## Authors
 
 
+
++ **Pablo Orviz**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-2473-6405](https://orcid.org/0000-0002-2473-6405)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [orviz](https://github.com/orviz)<br>
+  <small>
+     Spanish National Research Council (CSIC); Institute of Physics of Cantabria (IFCA)
+  </small>
+
++ **Mario David**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0003-1802-5356](https://orcid.org/0000-0003-1802-5356)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [mariojmdavid](https://github.com/mariojmdavid)<br>
+  <small>
+  </small>
+
++ **Jorge Gomes**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-9142-2596](https://orcid.org/0000-0002-9142-2596)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [jorge-lip](https://github.com/jorge-lip)<br>
+  <small>
+  </small>
+
++ **Joao Pina**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-8959-5044](https://orcid.org/0000-0001-8959-5044)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [jopina](https://github.com/jopina)<br>
+  <small>
+  </small>
+
++ **Samuel Bernardo**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-6175-4012](https://orcid.org/0000-0002-6175-4012)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [samuelbernardolip](https://github.com/samuelbernardolip)<br>
+  <small>
+  </small>
+
++ **Isabel Campos**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-9350-0383](https://orcid.org/0000-0002-9350-0383)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [isabel-campos-plasencia](https://github.com/isabel-campos-plasencia)<br>
+  <small>
+     Spanish National Research Council (CSIC); Institute of Physics of Cantabria (IFCA)
+  </small>
 
 
 

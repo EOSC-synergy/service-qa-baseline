@@ -4,12 +4,6 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <meta name="author" content="Pablo Orviz" />
-  <meta name="author" content="Mario David" />
-  <meta name="author" content="Jorge Gomes" />
-  <meta name="author" content="Joao Pina" />
-  <meta name="author" content="Samuel Bernardo" />
-  <meta name="author" content="Isabel Campos" />
   <meta name="dcterms.date" content="2020-04-29" />
   <meta name="keywords" content="service quality assurance, devops, service quality baseline, service testing, service deployment, agile development" />
   <title>A set of Common Service Quality Assurance Baseline Criteria for Research Projects</title>
@@ -41,35 +35,15 @@
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="Pablo Orviz" />
-  <meta name="citation_author_institution" content="Spanish National Research Council (CSIC)" />
-  <meta name="citation_author_institution" content="Institute of Physics of Cantabria (IFCA)" />
-  <meta name="citation_author_orcid" content="0000-0002-2473-6405" />
-  <meta name="citation_author" content="Mario David" />
-  <meta name="citation_author_institution" content="Laboratory of Instrumentation and Experimental Particle Physics (LIP)" />
-  <meta name="citation_author_orcid" content="0000-0003-1802-5356" />
-  <meta name="citation_author" content="Jorge Gomes" />
-  <meta name="citation_author_institution" content="Laboratory of Instrumentation and Experimental Particle Physics (LIP)" />
-  <meta name="citation_author_orcid" content="0000-0002-9142-2596" />
-  <meta name="citation_author" content="Joao Pina" />
-  <meta name="citation_author_institution" content="Laboratory of Instrumentation and Experimental Particle Physics (LIP)" />
-  <meta name="citation_author_orcid" content="0000-0001-8959-5044" />
-  <meta name="citation_author" content="Samuel Bernardo" />
-  <meta name="citation_author_institution" content="Laboratory of Instrumentation and Experimental Particle Physics (LIP)" />
-  <meta name="citation_author_orcid" content="0000-0002-6175-4012" />
-  <meta name="citation_author" content="Isabel Campos" />
-  <meta name="citation_author_institution" content="Spanish National Research Council (CSIC)" />
-  <meta name="citation_author_institution" content="Institute of Physics of Cantabria (IFCA)" />
-  <meta name="citation_author_orcid" content="0000-0002-9350-0383" />
   <link rel="canonical" href="https://EOSC-synergy.github.io/service-qa-baseline/" />
   <meta property="og:url" content="https://EOSC-synergy.github.io/service-qa-baseline/" />
   <meta property="twitter:url" content="https://EOSC-synergy.github.io/service-qa-baseline/" />
   <meta name="citation_fulltext_html_url" content="https://EOSC-synergy.github.io/service-qa-baseline/" />
   <meta name="citation_pdf_url" content="https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://EOSC-synergy.github.io/service-qa-baseline/v/cefc790d00cda9d4417f90b3ff2905899baccb4d/" />
-  <meta name="manubot_html_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/cefc790d00cda9d4417f90b3ff2905899baccb4d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/cefc790d00cda9d4417f90b3ff2905899baccb4d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://EOSC-synergy.github.io/service-qa-baseline/v/76c491d86a24c271d1fecc8ac38595ccbc26e844/" />
+  <meta name="manubot_html_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/76c491d86a24c271d1fecc8ac38595ccbc26e844/" />
+  <meta name="manubot_pdf_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/76c491d86a24c271d1fecc8ac38595ccbc26e844/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -87,9 +61,55 @@
 <p><small><em>
 This manuscript
 was automatically generated
-on .
+on 29-04-2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
+<ul>
+<li><p><strong>Pablo Orviz</strong><br>
+<img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" />
+<a href="https://orcid.org/0000-0002-2473-6405">0000-0002-2473-6405</a>
+· <img src="images/github.svg" class="inline_icon" alt="GitHub icon" />
+<a href="https://github.com/orviz">orviz</a><br>
+<small>
+Spanish National Research Council (CSIC); Institute of Physics of Cantabria (IFCA)
+</small></p></li>
+<li><p><strong>Mario David</strong><br>
+<img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" />
+<a href="https://orcid.org/0000-0003-1802-5356">0000-0003-1802-5356</a>
+· <img src="images/github.svg" class="inline_icon" alt="GitHub icon" />
+<a href="https://github.com/mariojmdavid">mariojmdavid</a><br>
+<small>
+</small></p></li>
+<li><p><strong>Jorge Gomes</strong><br>
+<img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" />
+<a href="https://orcid.org/0000-0002-9142-2596">0000-0002-9142-2596</a>
+· <img src="images/github.svg" class="inline_icon" alt="GitHub icon" />
+<a href="https://github.com/jorge-lip">jorge-lip</a><br>
+<small>
+</small></p></li>
+<li><p><strong>Joao Pina</strong><br>
+<img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" />
+<a href="https://orcid.org/0000-0001-8959-5044">0000-0001-8959-5044</a>
+· <img src="images/github.svg" class="inline_icon" alt="GitHub icon" />
+<a href="https://github.com/jopina">jopina</a><br>
+<small>
+</small></p></li>
+<li><p><strong>Samuel Bernardo</strong><br>
+<img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" />
+<a href="https://orcid.org/0000-0002-6175-4012">0000-0002-6175-4012</a>
+· <img src="images/github.svg" class="inline_icon" alt="GitHub icon" />
+<a href="https://github.com/samuelbernardolip">samuelbernardolip</a><br>
+<small>
+</small></p></li>
+<li><p><strong>Isabel Campos</strong><br>
+<img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" />
+<a href="https://orcid.org/0000-0002-9350-0383">0000-0002-9350-0383</a>
+· <img src="images/github.svg" class="inline_icon" alt="GitHub icon" />
+<a href="https://github.com/isabel-campos-plasencia">isabel-campos-plasencia</a><br>
+<small>
+Spanish National Research Council (CSIC); Institute of Physics of Cantabria (IFCA)
+</small></p></li>
+</ul>
 <h2 class="page_break_before" id="abstract">Abstract</h2>
 <p>The purpose of this document is to define a set of quality standards,
 procedures and best practices to conform a Service Quality Assurance
