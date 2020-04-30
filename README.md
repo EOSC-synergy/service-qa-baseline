@@ -19,7 +19,7 @@ functional suitability..
 
 The Common Service Quality Assurance Baseline Criteria
 _establishes the minimum viable set of quality requirements_ provides an initial
-approach to service quality assessment, meant to be applied in the integration
+approach to Service Quality Assurance, meant to be applied in the integration
 process of the services existing under the EOSC-Synergy project, which eventually
 will be accessible as part of the EOSC offerings. In
 order to discern among them, the [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt)
