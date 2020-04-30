@@ -2,7 +2,7 @@
 author-meta: []
 bibliography:
 - content/manual-references.json
-date-meta: '2020-04-29'
+date-meta: '2020-04-30'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -21,9 +21,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="A set of Common Service Quality Assurance Baseline Criteria for Research Projects" />
 
-  <meta name="dc.date" content="2020-04-29" />
+  <meta name="dc.date" content="2020-04-30" />
 
-  <meta name="citation_publication_date" content="2020-04-29" />
+  <meta name="citation_publication_date" content="2020-04-30" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -49,11 +49,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://EOSC-synergy.github.io/service-qa-baseline/v/76c491d86a24c271d1fecc8ac38595ccbc26e844/" />
+  <link rel="alternate" type="text/html" href="https://EOSC-synergy.github.io/service-qa-baseline/v/26cf768747efa8f8669a4b5285d6c87c612ee22e/" />
 
-  <meta name="manubot_html_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/76c491d86a24c271d1fecc8ac38595ccbc26e844/" />
+  <meta name="manubot_html_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/26cf768747efa8f8669a4b5285d6c87c612ee22e/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/76c491d86a24c271d1fecc8ac38595ccbc26e844/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/26cf768747efa8f8669a4b5285d6c87c612ee22e/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -193,13 +193,13 @@ research infrastructures, including the underlying e-Infrastructures. Consequent
 the ultimate success of the EOSC heavily relies on the quality aspects of those
 services, such as their stability or functional suitability.
 
-The meaning of **service** can be regarded from different perspectives.
-From an IT Service Management (ITSM) standpoint, such as the EOSC SMS process
-model, a service is devised as a means to "provide value to the customer".
-The same goal is shared by the DevOps paradigm, but in this case there is
-a more pragmatic vision the customer satisfaction is achieved through the
-continuous delivery of quality-assured services, with a shorter life cycle,
-as the final outcome of a comprehensive software development process.
+The meaning of **Service** can be regarded from different perspectives.
+From an IT Service Management (ITSM) standpoint, such as the EOSC Service Management
+System (SMS) process model, a service is devised as a means to "provide value
+to the customer". The same goal is shared by the DevOps paradigm, but in this
+case there is a more pragmatic vision the customer satisfaction is achieved
+through the continuous delivery of quality-assured services, with a shorter
+life cycle, as the final outcome of a comprehensive software development process.
 
 The ITSM model has a broader focus. A service is an "intangible asset" that
 also includes additional activities such as customer engagement and support.
@@ -211,7 +211,7 @@ components in operation.
 
 ## Purpose
 
-This document provides an initial approach to service quality assessment,
+This document provides an initial approach to Service Quality Assurance,
 meant to be applied in the integration process of the services existing
 under the EOSC-Synergy project, which eventually will be accessible as part
 of the EOSC offerings.
@@ -250,7 +250,7 @@ Examples are: Web portals, Scientific portals and gateways, data repositories.
 
 The herein proposed baseline harnesses the capabilities of the quality factors
 in the underlying software to lay out the principles for attaining quality in
-the enabled services within the EOSC context. According to this view, software
+the enabled services within the EOSC context. According to this view, service
 quality is the foundation to shape user-centric, reliable and fit-for-purpose
 services. 
 
@@ -267,7 +267,8 @@ realization of the verification and validation processes.
 * Ensure the functional suitability of the service by promoting testing
 techniques that check the compliance of the user requirements.
 
-* Improve the usability by identifying the set of criteria that fosters the service adoption.
+* Improve the usability by identifying the set of criteria that fosters the
+service adoption.
 
 * Promote the automated validation of the service quality criteria.
 
@@ -276,7 +277,7 @@ techniques that check the compliance of the user requirements.
 
 The keywords “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”,
 “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be
-interpreted as described in RFC 2119 @url:https://www.ietf.org/rfc/rfc2119.txt.
+interpreted as described in RFC 2119 [@url:https://www.ietf.org/rfc/rfc2119.txt].
 
 
 ## Quality Criteria
@@ -443,12 +444,6 @@ __EOSC__
 
 __VCS__
 : Version Control System
-
-
-## References {.page_break_before}
-
-<!-- Explicitly insert bibliography here -->
-<div id="refs"></div>
 
 
 ## References {.page_break_before}
