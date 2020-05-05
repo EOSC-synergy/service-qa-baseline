@@ -6,5 +6,21 @@
   "title": "Key words for use in RFCs to Indicate Requirement Levels",
   "issued": {"date-parts": [[1997]]},
   "author": [{"given": "Scott", "family": "Bradner"}]
+},
+{
+  "type": "article",
+  "standard_citation": "url:https://digital.csic.es/handle/10261/160086",
+  "URL": "https://digital.csic.es/handle/10261/160086",
+  "note": "publisher: CSIC-UC - Instituto de Física de Cantabria (IFCA)",
+  "title": "A set of common software quality assurance baseline criteria for research projects",
+  "issued": {"date-parts": [[2017]]},
+  "author": [
+    {"family": "Orviz", "given": "Pablo"},
+    {"family": "López García", "given": "Álvaro"},
+    {"family": "Duma", "given": "Doina Cristina"},
+    {"family": "Donvito", "given": "Giacinto"},
+    {"family": "David", "given": "Mario"},
+    {"family": "Gomes", "given": "Jorge"}
+  ]
 }
 ]
