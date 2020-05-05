@@ -2,7 +2,7 @@
 author-meta: []
 bibliography:
 - content/manual-references.json
-date-meta: '2020-04-30'
+date-meta: '2020-05-05'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -21,9 +21,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="A set of Common Service Quality Assurance Baseline Criteria for Research Projects" />
 
-  <meta name="dc.date" content="2020-04-30" />
+  <meta name="dc.date" content="2020-05-05" />
 
-  <meta name="citation_publication_date" content="2020-04-30" />
+  <meta name="citation_publication_date" content="2020-05-05" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -49,11 +49,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://EOSC-synergy.github.io/service-qa-baseline/v/26cf768747efa8f8669a4b5285d6c87c612ee22e/" />
+  <link rel="alternate" type="text/html" href="https://EOSC-synergy.github.io/service-qa-baseline/v/89256752feaaf66efcdfa492c171241b122aeace/" />
 
-  <meta name="manubot_html_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/26cf768747efa8f8669a4b5285d6c87c612ee22e/" />
+  <meta name="manubot_html_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/89256752feaaf66efcdfa492c171241b122aeace/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/26cf768747efa8f8669a4b5285d6c87c612ee22e/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/89256752feaaf66efcdfa492c171241b122aeace/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -220,7 +220,8 @@ The criteria compiled in this document favours a pragmatic and systematic
 approach that puts emphasis on the programmatic assessment of the quality
 conventions. To this end, the criteria herein compiled builds on the DevOps
 culture already established in the preceding Software Quality Assurance baseline
-document [5] to outline the set of good practices that seek the usability and
+document [@url:https://digital.csic.es/handle/10261/160086] to outline the set
+of good practices that seek the usability and
 reliability of services, and meet the user expectations in terms of functional
 requirements.
 
@@ -228,7 +229,7 @@ requirements.
 
 As a result, a **Service**, as conceived in this document, represent the following:
 
-* Web service [WS] [7]:
+* Web service [WS] [@url:https://techterms.com/definition/web_service]:
     * A web service is an application or data source that is accessible via
     a standard web protocol (HTTP or HTTPS).
     * Web services are designed to communicate with other programs,
@@ -236,11 +237,14 @@ As a result, a **Service**, as conceived in this document, represent the followi
     * Most web services provide an API, or a set of functions and commands,
     that can be used to access the data.
 
-* Web application [WApp] [8]:
+* Web application [WApp] [@url:https://techterms.com/definition/web_application]:
     * A web application or "web app" is a software program that runs on a web server.
     * Web apps must be accessed through a web browser.
 
-* Platform [Plat]: an integrated set of Web services, Web applications and software components.
+* Platform or Service Composition [Plat]
+[@url:https://csrc.nist.gov/glossary/term/Service_Composition]:
+    * Aggregation of multiple small services into larger services.
+    * An integrated set of Web services, Web applications and software components.
 
 Examples are: Web portals, Scientific portals and gateways, data repositories.
 
@@ -289,8 +293,9 @@ such as the EOSC ecosystem. These guidelines rule the **Service** development
 and operation process within the framework of the EOSC-Synergy project.
 
 Some of the criteria in this document is similar or based on the
-document "Software Quality Assurance baseline2 [5], for such cases the
-following tag is added to the criteria: [Ref.5-QC.XyNN] where QC.XyNN is
+document "Software Quality Assurance baseline"
+[@url:https://digital.csic.es/handle/10261/160086], for such cases the
+following tag is added to the criteria: [SQA-QC.XyNN] where QC.XyNN is
 the codename of the criteria in that document.
 
 ### Integration Testing [SvcQC.Int]
@@ -300,23 +305,27 @@ coupled **Service** or parts of a system that cooperate to achieve a given
 functionality.
 
 * **[SvcQC.Int01]** Integration testing outcome MUST guarantee the overall
-operation of the  **Service** whenever new functionality is involved. [Ref.5-QC.Int01].
+operation of the  **Service** whenever new functionality is involved. [SQA-QC.Int01].
 
 * **[SvcQC.Int02]** Integration testing SHOULD be automated.
 
 * **[SvcQC.Int03]** Ad-hoc pilot **Service** infrastructures and/or local
-testbeds MAY be used to cope with the integration testing requirements. [Ref.5-QC.Int04].
+testbeds MAY be used to cope with the integration testing requirements. [SQA-QC.Int04].
 
 ### Scalability tests [SvcQC.Sca]
 
 Scalability Testing is a non-functional test methodology in which an
 application’s performance is measured in terms of its ability to scale
 up or scale down the number of user requests or other such performance
-measure attributes [9].
+measure attributes [@url:https://www.softwaretestinghelp.com/what-is-scalability-testing/].
 
 * **[SvcQC.Sca01]**
 
 ### Elasticity tests [SvcQC.Ela]
+
+Elasticity is the level of autonomous adaptation provided by the
+cloud layer in response to variable demand for the software
+service [@doi:10.1186/s13677-019-0134-y].
 
 * **[SvcQC.Ela01]**
 
@@ -330,18 +339,18 @@ enters into production. Tests for the public API.
 ### Documentation [SvcQC.Doc]
 
 * **[SvcQC.Doc01]** Documentation MUST be available online, easily
-findable and accessible. [Ref.5-QC.Doc03].
+findable and accessible. [SQA-QC.Doc03].
 
 * **[SvcQC.Doc02]** Documentation SHOULD have a Persistent Identifier (PID).
 
-* **[SvcQC.Doc03]** Documentation MUST be version controlled. [Ref.5-QC.Doc01.1].
+* **[SvcQC.Doc03]** Documentation MUST be version controlled. [SQA-QC.Doc01.1].
 
 * **[SvcQC.Doc04]** Documentation MUST be updated on new **Service** versions
 involving any change in the installation, configuration or behaviour of
-the **Service**. [Ref.5-QC.Doc04].
+the **Service**. [SQA-QC.Doc04].
 
 * **[SvcQC.Doc05]** Documentation MUST be updated whenever reported
-as inaccurate or unclear. [Ref.5-QC.Doc05].
+as inaccurate or unclear. [SQA-QC.Doc05].
 
 * **[SvcQC.Doc06]** Documentation MUST have a non-software license.
 
@@ -349,7 +358,7 @@ as inaccurate or unclear. [Ref.5-QC.Doc05].
 target audience, varying according to the **Service** specification.
 The identified types of documentation and their RECOMMENDED content are:
 
-  * **[SvcQC.Doc07.2]** Deployment and Administration. [Ref.5-QC.Doc06.3]:
+  * **[SvcQC.Doc07.2]** Deployment and Administration. [SQA-QC.Doc06.3]:
     * Installation and configuration guides.
     * Service Reference Card, with the following RECOMMENDED content:
       * Brief functional description.
@@ -362,7 +371,7 @@ The identified types of documentation and their RECOMMENDED content are:
       * List of cron jobs.
       * Security information.
       * FAQs and troubleshooting.
-  * **[SvcQC.Doc07.3]** User. [Ref.5-QC.Doc06.4]:
+  * **[SvcQC.Doc07.3]** User. [SQA-QC.Doc06.4]:
     * Detailed User Guide for the **Service**.
     * Public API documentation (if applicable).
     * Command-line (CLI) reference (if applicable).
@@ -379,13 +388,14 @@ The identified types of documentation and their RECOMMENDED content are:
 * **[SvcQC.Sec01]** The **Service** public endpoints and APIs MUST be secured
 with encryption.
 
-* **[SvcQC.Sec02]** Dynamic application security testing (DAST) [6]
+* **[SvcQC.Sec02]** Dynamic application security testing (DAST)
+[@url:https://www.techopedia.com/definition/30958/dynamic-application-security-testing-dast]
 SHALL be performed from the outside, to the **Service** in an operation
 state, to look for security vulnerabilities (e.g. SQL injection,
-cross-site scripting, DDOS). [Ref.5-QC.Sec03].
+cross-site scripting, DDOS). [SQA-QC.Sec03].
 
 * **[SvcQC.Sec03]** Manual penetration testing MAY be part of the
-application security  verification effort. [Ref.5-QC.Sec04].
+application security  verification effort. [SQA-QC.Sec04].
 
 * **[SvcQC.Sec04]** The **Service** SHOULD have an Authentication mechanism.
 
@@ -408,7 +418,7 @@ leveraging Infrastructure as Code (IaC) tools.
 for operational and users issues.
 
 * **[SvcQC.Sup02]** The **Service** SHOULD have a tracker for the
-underlying software issues. [Ref.5-QC.Man01].
+underlying software issues. [SQA-QC.Man01].
 
 * **[SvcQC.Sup03]** The **Service** SHOULD include an Operational
 Level Agreement (OLA) with the infrastructure where it is integrated.

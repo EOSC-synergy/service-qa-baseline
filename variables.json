@@ -10,9 +10,9 @@
       "agile development"
     ],
     "lang": "en-US",
-    "date-meta": "2020-04-30",
+    "date-meta": "2020-05-05",
     "author-meta": [],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"A set of Common Service Quality Assurance Baseline Criteria for Research Projects\" />\n<meta name=\"citation_title\" content=\"A set of Common Service Quality Assurance Baseline Criteria for Research Projects\" />\n<meta property=\"og:title\" content=\"A set of Common Service Quality Assurance Baseline Criteria for Research Projects\" />\n<meta property=\"twitter:title\" content=\"A set of Common Service Quality Assurance Baseline Criteria for Research Projects\" />\n<meta name=\"dc.date\" content=\"2020-04-30\" />\n<meta name=\"citation_publication_date\" content=\"2020-04-30\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<link rel=\"canonical\" href=\"https://EOSC-synergy.github.io/service-qa-baseline/\" />\n<meta property=\"og:url\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/\" />\n<meta property=\"twitter:url\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/\" />\n<meta name=\"citation_pdf_url\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://EOSC-synergy.github.io/service-qa-baseline/v/26cf768747efa8f8669a4b5285d6c87c612ee22e/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/v/26cf768747efa8f8669a4b5285d6c87c612ee22e/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/v/26cf768747efa8f8669a4b5285d6c87c612ee22e/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"A set of Common Service Quality Assurance Baseline Criteria for Research Projects\" />\n<meta name=\"citation_title\" content=\"A set of Common Service Quality Assurance Baseline Criteria for Research Projects\" />\n<meta property=\"og:title\" content=\"A set of Common Service Quality Assurance Baseline Criteria for Research Projects\" />\n<meta property=\"twitter:title\" content=\"A set of Common Service Quality Assurance Baseline Criteria for Research Projects\" />\n<meta name=\"dc.date\" content=\"2020-05-05\" />\n<meta name=\"citation_publication_date\" content=\"2020-05-05\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<link rel=\"canonical\" href=\"https://EOSC-synergy.github.io/service-qa-baseline/\" />\n<meta property=\"og:url\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/\" />\n<meta property=\"twitter:url\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/\" />\n<meta name=\"citation_pdf_url\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://EOSC-synergy.github.io/service-qa-baseline/v/89256752feaaf66efcdfa492c171241b122aeace/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/v/89256752feaaf66efcdfa492c171241b122aeace/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/v/89256752feaaf66efcdfa492c171241b122aeace/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -22,26 +22,26 @@
     "manubot-clear-requests-cache": false
   },
   "manubot": {
-    "date": "April 30, 2020",
+    "date": "May 5, 2020",
     "authors": [],
     "ci_source": {
       "provider": "github",
       "repo_slug": "EOSC-synergy/service-qa-baseline",
       "repo_owner": "EOSC-synergy",
       "repo_name": "service-qa-baseline",
-      "commit": "26cf768747efa8f8669a4b5285d6c87c612ee22e",
-      "triggering_commit": "26cf768747efa8f8669a4b5285d6c87c612ee22e",
-      "build_url": "https://github.com/EOSC-synergy/service-qa-baseline/commit/26cf768747efa8f8669a4b5285d6c87c612ee22e/checks",
+      "commit": "89256752feaaf66efcdfa492c171241b122aeace",
+      "triggering_commit": "89256752feaaf66efcdfa492c171241b122aeace",
+      "build_url": "https://github.com/EOSC-synergy/service-qa-baseline/commit/89256752feaaf66efcdfa492c171241b122aeace/checks",
       "job_url": "https://github.com/EOSC-synergy/service-qa-baseline/runs/run2"
     },
     "html_url": "https://EOSC-synergy.github.io/service-qa-baseline/",
     "pdf_url": "https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf",
-    "html_url_versioned": "https://EOSC-synergy.github.io/service-qa-baseline/v/26cf768747efa8f8669a4b5285d6c87c612ee22e/",
-    "pdf_url_versioned": "https://EOSC-synergy.github.io/service-qa-baseline/v/26cf768747efa8f8669a4b5285d6c87c612ee22e/manuscript.pdf",
+    "html_url_versioned": "https://EOSC-synergy.github.io/service-qa-baseline/v/89256752feaaf66efcdfa492c171241b122aeace/",
+    "pdf_url_versioned": "https://EOSC-synergy.github.io/service-qa-baseline/v/89256752feaaf66efcdfa492c171241b122aeace/manuscript.pdf",
     "manubot_version": "0.3.1",
     "rootstock_commit": "2c2868957798937f5203248bdfb9e414c8fd0ad1",
     "manuscript_stats": {
-      "word_count": 1804
+      "word_count": 1840
     }
   },
   "date": "29-04-2020",
