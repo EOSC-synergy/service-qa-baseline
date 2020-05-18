@@ -49,11 +49,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://EOSC-synergy.github.io/service-qa-baseline/v/c1e417758adf90d0f5411eb384507cb233ddfd1d/" />
+  <link rel="alternate" type="text/html" href="https://EOSC-synergy.github.io/service-qa-baseline/v/d9bd9760541dce07e69e66ae4bfa5fcf063928ee/" />
 
-  <meta name="manubot_html_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/c1e417758adf90d0f5411eb384507cb233ddfd1d/" />
+  <meta name="manubot_html_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/d9bd9760541dce07e69e66ae4bfa5fcf063928ee/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/c1e417758adf90d0f5411eb384507cb233ddfd1d/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/d9bd9760541dce07e69e66ae4bfa5fcf063928ee/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
