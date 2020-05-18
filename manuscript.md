@@ -49,11 +49,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://EOSC-synergy.github.io/service-qa-baseline/v/d9bd9760541dce07e69e66ae4bfa5fcf063928ee/" />
+  <link rel="alternate" type="text/html" href="https://EOSC-synergy.github.io/service-qa-baseline/v/faabce2ada746045e77e873741b089d4a8cb169f/" />
 
-  <meta name="manubot_html_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/d9bd9760541dce07e69e66ae4bfa5fcf063928ee/" />
+  <meta name="manubot_html_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/faabce2ada746045e77e873741b089d4a8cb169f/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/d9bd9760541dce07e69e66ae4bfa5fcf063928ee/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/faabce2ada746045e77e873741b089d4a8cb169f/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -379,9 +379,18 @@ The identified types of documentation and their RECOMMENDED content are:
 ### Policies [SvcQC.Pol]
 
 * **[SvcQC.Pol01]** The **Service** MUST include the following policy documents:
-  * **[SvcQC.Pol01.1]** Acceptable Usage Policy (AUP).
-  * **[SvcQC.Pol01.2]** Access policy.
-  * **[SvcQC.Pol01.3]** Privacy policy.
+  * **[SvcQC.Pol01.1]** Acceptable Usage Policy (AUP): An acceptable use policy (AUP),
+  acceptable usage policy or fair use policy, is a set of rules applied by the owner, creator or 
+  administrator of a network, website, or service, that restrict the ways in which the network, 
+  website or system may be used and sets guidelines as to how it should be used. 
+  * **[SvcQC.Pol01.2]** Access Policy or Terms of Use: represent a binding legal
+  contract between the users (and/or costumers), and the Provider of the **Service**.
+  The Access Policy, mandate the users (and/or costumers) access to and the use of
+  Provider’s **Service**.
+  * **[SvcQC.Pol01.3]** Privacy Policy: Data privacy statement informing the users
+  (and/or costumers), about which personal data is collected and processed when they
+  use and interact with the **Service**. Stated which rights the users (and/or costumers)
+  have regarding the processing of their data.
 
 ### Security [SvcQC.Sec]
 
