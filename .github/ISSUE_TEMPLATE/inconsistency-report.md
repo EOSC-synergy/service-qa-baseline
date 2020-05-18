@@ -3,7 +3,7 @@ name: Inconsistency report
 about: Create a report to fix a spotted inconsistency
 title: "[INCONSISTENCY]"
 labels: inconsistency
-assignees: orviz, mariojmdavid
+assignees: mariojmdavid, orviz
 
 ---
 
