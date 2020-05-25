@@ -22,5 +22,17 @@
     {"family": "David", "given": "Mario"},
     {"family": "Gomes", "given": "Jorge"}
   ]
+},
+{
+  "type": "book",
+  "standard_citation": "url:http://www.swebok.org",
+  "URL": "http://www.swebok.org",
+  "note": "publisher: IEEE Computer Society,",
+  "title": "Guide to the Software Engineering Body of Knowledge, Version 3.0",
+  "issued": {"date-parts": [[2014]]},
+  "author": [
+    {"family": "Bourque", "given": "P."},
+    {"family": "Fairley", "given": "R.E."}
+  ]
 }
 ]
