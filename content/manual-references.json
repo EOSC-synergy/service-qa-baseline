@@ -34,5 +34,13 @@
     {"family": "Bourque", "given": "P."},
     {"family": "Fairley", "given": "R.E."}
   ]
+},
+{
+  "type": "legislation",
+  "standard_citation": "url:https://www.openapis.org/",
+  "URL": "https://www.openapis.org/",
+  "title": "The OpenAPI Initiative",
+  "issued": {"date-parts": [[2016]]},
+  "author": [{"literal": "The Linux Foundation"}]
 }
 ]
