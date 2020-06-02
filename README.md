@@ -4,6 +4,12 @@
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf)
 [![GitHub Actions Status](https://github.com/EOSC-synergy/service-qa-baseline/workflows/Manubot/badge.svg)](https://github.com/EOSC-synergy/service-qa-baseline/actions)
 
+## Preview version
+
+A preview of the document can be found here: https://github.com/EOSC-synergy/service-qa-baseline/releases/download/V1.0-beta01/service-qa-V1.0-beta01.pdf
+
+This is a beta version and not yet complete.
+
 ## Motivation
 
 Service development, provisioning, operation and integration into large
