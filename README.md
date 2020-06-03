@@ -6,7 +6,9 @@
 
 ## Preview version
 
-A preview of the document can be found here: https://github.com/EOSC-synergy/service-qa-baseline/releases/download/V1.0-beta01/service-qa-V1.0-beta01.pdf
+*This part should be removed when merging into master and doing the first release.*
+
+A preview of the document can be found here: https://github.com/EOSC-synergy/service-qa-baseline/releases/download/V1.0-beta02/service-qa-V1.0-beta02.pdf
 
 This is a beta version and not yet complete.
 
