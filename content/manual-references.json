@@ -42,5 +42,37 @@
   "title": "The OpenAPI Initiative",
   "issued": {"date-parts": [[2016]]},
   "author": [{"literal": "The Linux Foundation"}]
+},
+{
+  "type": "legislation",
+  "standard_citation": "url:https://www.cisecurity.org/cis-benchmarks/",
+  "URL": "https://www.cisecurity.org/cis-benchmarks/",
+  "title": "CIS Benchmarks",
+  "issued": {"date-parts": [[2019]]},
+  "author": [{"literal": "Center for Internet Security"}]
+},
+{
+  "type": "legislation",
+  "standard_citation": "url:https://doi.org/10.6028/NIST.SP.800-115",
+  "URL": "https://doi.org/10.6028/NIST.SP.800-115",
+  "title": "Technical Guide to Information Security Testing and Assessment",
+  "issued": {"date-parts": [[2008]]},
+  "author": [{"literal": "National Institute of Standards and Technology"}]
+},
+{
+  "type": "legislation",
+  "standard_citation": "url:https://doi.org/10.6028/NIST.IR.8176",
+  "URL": "https://doi.org/10.6028/NIST.IR.8176",
+  "title": "Security Assurance Requirements for Linux Application Container Deployments",
+  "issued": {"date-parts": [[2017]]},
+  "author": [{"literal": "National Institute of Standards and Technology"}]
+},
+{
+  "type": "legislation",
+  "standard_citation": "url:https://owasp.org/www-pdf-archive/OWASP_SCP_Quick_Reference_Guide_v2.pdf",
+  "URL": "https://owasp.org/www-pdf-archive/OWASP_SCP_Quick_Reference_Guide_v2.pdf",
+  "title": "Secure Coding Practices - Quick Reference Guide",
+  "issued": {"date-parts": [[2010]]},
+  "author": [{"literal": "Open Web Application Security Project"}]
 }
 ]
