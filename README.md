@@ -11,7 +11,7 @@
 A preview of the document can be found here:
 https://github.com/EOSC-synergy/service-qa-baseline/releases/download/V1.0-beta03/service-qa-V1.0-beta03.pdf
 
-This is a beta version and not yet complete.
+This beta version is complete.
 
 ## Motivation
 
