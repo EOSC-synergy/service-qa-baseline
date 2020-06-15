@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/EOSC-synergy/service-qa-baseline/tree/gh-pages) branch hosts the contents of this directory at <https://EOSC-synergy.github.io/service-qa-baseline/>.
-The permalink for this webpage version is <https://EOSC-synergy.github.io/service-qa-baseline/v/faabce2ada746045e77e873741b089d4a8cb169f/>.
+The permalink for this webpage version is <https://EOSC-synergy.github.io/service-qa-baseline/v/203c4ec4bf494fd38dbd9cc2eeb52645e4424b27/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://EOSC-synergy.github.io/service-qa-baseline/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`faabce2ada746045e77e873741b089d4a8cb169f`](https://github.com/EOSC-synergy/service-qa-baseline/commit/faabce2ada746045e77e873741b089d4a8cb169f).
+[`203c4ec4bf494fd38dbd9cc2eeb52645e4424b27`](https://github.com/EOSC-synergy/service-qa-baseline/commit/203c4ec4bf494fd38dbd9cc2eeb52645e4424b27).
