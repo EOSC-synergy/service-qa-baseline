@@ -50,3 +50,17 @@ author:
     affiliations:
       - Spanish National Research Council (CSIC)
       - Institute of Physics of Cantabria (IFCA)
+  -
+    name: Germán Moltó
+    github: gmolto
+    orcid: 0000-0002-8049-253X
+    email: gmolto@dsic.upv.es
+    affiliations:
+      - Universitat Politècnica de València (UPV)
+  -
+    name: Miguel Caballer
+    github: micafer
+    orcid: 0000-0001-9393-3077
+    email: micafer1@upv.es
+    affiliations:
+      - Universitat Politècnica de València (UPV)

@@ -38,3 +38,5 @@ Thumbs.db
 
 ## Text Editors
 .vscode
+*.swp
+*.swo
