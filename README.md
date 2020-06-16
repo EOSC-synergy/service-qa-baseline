@@ -26,6 +26,8 @@ order to discern among them, the [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt
 convention is used throughout the document, thus adding adequate information
 about the criticality of each requirement.
 
+_A citable version of this manuscript is available at https://digital.csic.es/handle/10261/214441_
+
 ## Open Collaboration
 
 The current baseline has been elaborated based on the first-hand
