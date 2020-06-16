@@ -2,7 +2,7 @@
 author-meta: []
 bibliography:
 - content/manual-references.json
-date-meta: '2020-06-15'
+date-meta: '2020-06-16'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -21,9 +21,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="A set of Common Service Quality Assurance Baseline Criteria for Research Projects" />
 
-  <meta name="dc.date" content="2020-06-15" />
+  <meta name="dc.date" content="2020-06-16" />
 
-  <meta name="citation_publication_date" content="2020-06-15" />
+  <meta name="citation_publication_date" content="2020-06-16" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -49,11 +49,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://EOSC-synergy.github.io/service-qa-baseline/v/203c4ec4bf494fd38dbd9cc2eeb52645e4424b27/" />
+  <link rel="alternate" type="text/html" href="https://EOSC-synergy.github.io/service-qa-baseline/v/c293ab8fa28d15b6f4bee8a9e27f8d13afcd27d8/" />
 
-  <meta name="manubot_html_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/203c4ec4bf494fd38dbd9cc2eeb52645e4424b27/" />
+  <meta name="manubot_html_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/c293ab8fa28d15b6f4bee8a9e27f8d13afcd27d8/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/203c4ec4bf494fd38dbd9cc2eeb52645e4424b27/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/c293ab8fa28d15b6f4bee8a9e27f8d13afcd27d8/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
