@@ -10,9 +10,19 @@
       "agile development"
     ],
     "lang": "en-US",
-    "date-meta": "2020-06-16",
-    "author-meta": [],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"A set of Common Service Quality Assurance Baseline Criteria for Research Projects\" />\n<meta name=\"citation_title\" content=\"A set of Common Service Quality Assurance Baseline Criteria for Research Projects\" />\n<meta property=\"og:title\" content=\"A set of Common Service Quality Assurance Baseline Criteria for Research Projects\" />\n<meta property=\"twitter:title\" content=\"A set of Common Service Quality Assurance Baseline Criteria for Research Projects\" />\n<meta name=\"dc.date\" content=\"2020-06-16\" />\n<meta name=\"citation_publication_date\" content=\"2020-06-16\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<link rel=\"canonical\" href=\"https://EOSC-synergy.github.io/service-qa-baseline/\" />\n<meta property=\"og:url\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/\" />\n<meta property=\"twitter:url\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/\" />\n<meta name=\"citation_pdf_url\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://EOSC-synergy.github.io/service-qa-baseline/v/c293ab8fa28d15b6f4bee8a9e27f8d13afcd27d8/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/v/c293ab8fa28d15b6f4bee8a9e27f8d13afcd27d8/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/v/c293ab8fa28d15b6f4bee8a9e27f8d13afcd27d8/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "date-meta": "2022-02-04",
+    "author-meta": [
+      "Pablo Orviz",
+      "Mario David",
+      "Jorge Gomes",
+      "Joao Pina",
+      "Samuel Bernardo",
+      "Isabel Campos",
+      "Germán Moltó",
+      "Miguel Caballer",
+      "Vyacheslav Tykhonov"
+    ],
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"A set of Common Service Quality Assurance Baseline Criteria for Research Projects\" />\n<meta name=\"citation_title\" content=\"A set of Common Service Quality Assurance Baseline Criteria for Research Projects\" />\n<meta property=\"og:title\" content=\"A set of Common Service Quality Assurance Baseline Criteria for Research Projects\" />\n<meta property=\"twitter:title\" content=\"A set of Common Service Quality Assurance Baseline Criteria for Research Projects\" />\n<meta name=\"dc.date\" content=\"2022-02-04\" />\n<meta name=\"citation_publication_date\" content=\"2022-02-04\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Pablo Orviz\" />\n<meta name=\"citation_author_institution\" content=\"Spanish National Research Council (CSIC)\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Physics of Cantabria (IFCA)\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2473-6405\" />\n<meta name=\"citation_author\" content=\"Mario David\" />\n<meta name=\"citation_author_institution\" content=\"Laboratory of Instrumentation and Experimental Particle Physics (LIP)\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1802-5356\" />\n<meta name=\"citation_author\" content=\"Jorge Gomes\" />\n<meta name=\"citation_author_institution\" content=\"Laboratory of Instrumentation and Experimental Particle Physics (LIP)\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9142-2596\" />\n<meta name=\"citation_author\" content=\"Joao Pina\" />\n<meta name=\"citation_author_institution\" content=\"Laboratory of Instrumentation and Experimental Particle Physics (LIP)\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8959-5044\" />\n<meta name=\"citation_author\" content=\"Samuel Bernardo\" />\n<meta name=\"citation_author_institution\" content=\"Laboratory of Instrumentation and Experimental Particle Physics (LIP)\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-6175-4012\" />\n<meta name=\"citation_author\" content=\"Isabel Campos\" />\n<meta name=\"citation_author_institution\" content=\"Spanish National Research Council (CSIC)\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Physics of Cantabria (IFCA)\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9350-0383\" />\n<meta name=\"citation_author\" content=\"Germán Moltó\" />\n<meta name=\"citation_author_institution\" content=\"Universitat Politècnica de València (UPV)\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-8049-253X\" />\n<meta name=\"citation_author\" content=\"Miguel Caballer\" />\n<meta name=\"citation_author_institution\" content=\"Universitat Politècnica de València (UPV)\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-9393-3077\" />\n<meta name=\"citation_author\" content=\"Vyacheslav Tykhonov\" />\n<meta name=\"citation_author_institution\" content=\"DANS-KNAW\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-9447-9830\" />\n<link rel=\"canonical\" href=\"https://EOSC-synergy.github.io/service-qa-baseline/\" />\n<meta property=\"og:url\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/\" />\n<meta property=\"twitter:url\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/\" />\n<meta name=\"citation_pdf_url\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://EOSC-synergy.github.io/service-qa-baseline/v/3d2cc28b937b6cbc5f1d103cf652a626a0307602/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/v/3d2cc28b937b6cbc5f1d103cf652a626a0307602/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://EOSC-synergy.github.io/service-qa-baseline/v/3d2cc28b937b6cbc5f1d103cf652a626a0307602/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -22,95 +32,162 @@
     "manubot-clear-requests-cache": false
   },
   "manubot": {
-    "date": "June 16, 2020",
-    "authors": [],
+    "date": "February 4, 2022",
+    "authors": [
+      {
+        "name": "Pablo Orviz",
+        "github": "orviz",
+        "orcid": "0000-0002-2473-6405",
+        "email": "orviz@ifca.unican.es",
+        "affiliations": [
+          "Spanish National Research Council (CSIC)",
+          "Institute of Physics of Cantabria (IFCA)"
+        ],
+        "affiliation_numbers": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "Mario David",
+        "github": "mariojmdavid",
+        "orcid": "0000-0003-1802-5356",
+        "email": "david@lip.pt",
+        "affiliations": [
+          "Laboratory of Instrumentation and Experimental Particle Physics (LIP)"
+        ],
+        "affiliation_numbers": [
+          3
+        ]
+      },
+      {
+        "name": "Jorge Gomes",
+        "github": "jorge-lip",
+        "orcid": "0000-0002-9142-2596",
+        "email": "jorge@lip.pt",
+        "affiliations": [
+          "Laboratory of Instrumentation and Experimental Particle Physics (LIP)"
+        ],
+        "affiliation_numbers": [
+          3
+        ]
+      },
+      {
+        "name": "Joao Pina",
+        "github": "jopina",
+        "orcid": "0000-0001-8959-5044",
+        "email": "jpina@lip.pt",
+        "affiliations": [
+          "Laboratory of Instrumentation and Experimental Particle Physics (LIP)"
+        ],
+        "affiliation_numbers": [
+          3
+        ]
+      },
+      {
+        "name": "Samuel Bernardo",
+        "github": "samuelbernardolip",
+        "orcid": "0000-0002-6175-4012",
+        "email": "samuel@lip.pt",
+        "affiliations": [
+          "Laboratory of Instrumentation and Experimental Particle Physics (LIP)"
+        ],
+        "affiliation_numbers": [
+          3
+        ]
+      },
+      {
+        "name": "Isabel Campos",
+        "github": "isabel-campos-plasencia",
+        "orcid": "0000-0002-9350-0383",
+        "email": "isabel@campos-it.es",
+        "affiliations": [
+          "Spanish National Research Council (CSIC)",
+          "Institute of Physics of Cantabria (IFCA)"
+        ],
+        "affiliation_numbers": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "Germán Moltó",
+        "github": "gmolto",
+        "orcid": "0000-0002-8049-253X",
+        "email": "gmolto@dsic.upv.es",
+        "affiliations": [
+          "Universitat Politècnica de València (UPV)"
+        ],
+        "affiliation_numbers": [
+          4
+        ]
+      },
+      {
+        "name": "Miguel Caballer",
+        "github": "micafer",
+        "orcid": "0000-0001-9393-3077",
+        "email": "micafer1@upv.es",
+        "affiliations": [
+          "Universitat Politècnica de València (UPV)"
+        ],
+        "affiliation_numbers": [
+          4
+        ]
+      },
+      {
+        "name": "Vyacheslav Tykhonov",
+        "github": "4tikhonov",
+        "orcid": "0000-0001-9447-9830",
+        "email": "vyacheslav.tykhonov@dans.knaw.nl",
+        "affiliations": [
+          "DANS-KNAW"
+        ],
+        "affiliation_numbers": [
+          5
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "affiliation": "Spanish National Research Council (CSIC)",
+        "affiliation_number": 1
+      },
+      {
+        "affiliation": "Institute of Physics of Cantabria (IFCA)",
+        "affiliation_number": 2
+      },
+      {
+        "affiliation": "Laboratory of Instrumentation and Experimental Particle Physics (LIP)",
+        "affiliation_number": 3
+      },
+      {
+        "affiliation": "Universitat Politècnica de València (UPV)",
+        "affiliation_number": 4
+      },
+      {
+        "affiliation": "DANS-KNAW",
+        "affiliation_number": 5
+      }
+    ],
     "ci_source": {
       "provider": "github",
       "repo_slug": "EOSC-synergy/service-qa-baseline",
       "repo_owner": "EOSC-synergy",
       "repo_name": "service-qa-baseline",
-      "commit": "c293ab8fa28d15b6f4bee8a9e27f8d13afcd27d8",
-      "triggering_commit": "c293ab8fa28d15b6f4bee8a9e27f8d13afcd27d8",
-      "build_url": "https://github.com/EOSC-synergy/service-qa-baseline/commit/c293ab8fa28d15b6f4bee8a9e27f8d13afcd27d8/checks",
-      "job_url": "https://github.com/EOSC-synergy/service-qa-baseline/runs/run2"
+      "commit": "3d2cc28b937b6cbc5f1d103cf652a626a0307602",
+      "triggering_commit": "3d2cc28b937b6cbc5f1d103cf652a626a0307602",
+      "build_url": "https://github.com/EOSC-synergy/service-qa-baseline/commit/3d2cc28b937b6cbc5f1d103cf652a626a0307602/checks",
+      "job_url": "https://github.com/EOSC-synergy/service-qa-baseline/actions/runs/1795352291"
     },
     "html_url": "https://EOSC-synergy.github.io/service-qa-baseline/",
     "pdf_url": "https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf",
-    "html_url_versioned": "https://EOSC-synergy.github.io/service-qa-baseline/v/c293ab8fa28d15b6f4bee8a9e27f8d13afcd27d8/",
-    "pdf_url_versioned": "https://EOSC-synergy.github.io/service-qa-baseline/v/c293ab8fa28d15b6f4bee8a9e27f8d13afcd27d8/manuscript.pdf",
-    "manubot_version": "0.3.1",
-    "rootstock_commit": "2c2868957798937f5203248bdfb9e414c8fd0ad1",
+    "html_url_versioned": "https://EOSC-synergy.github.io/service-qa-baseline/v/3d2cc28b937b6cbc5f1d103cf652a626a0307602/",
+    "pdf_url_versioned": "https://EOSC-synergy.github.io/service-qa-baseline/v/3d2cc28b937b6cbc5f1d103cf652a626a0307602/manuscript.pdf",
+    "manubot_version": "0.5.1",
+    "rootstock_commit": "9a448fe6edb477fb98065d5b83d206b1ca489cee",
     "manuscript_stats": {
-      "word_count": 3679
+      "word_count": 3811
     }
   },
-  "date": "29-04-2020",
-  "author": [
-    {
-      "name": "Pablo Orviz",
-      "github": "orviz",
-      "orcid": "0000-0002-2473-6405",
-      "email": "orviz@ifca.unican.es",
-      "affiliations": [
-        "Spanish National Research Council (CSIC)",
-        "Institute of Physics of Cantabria (IFCA)"
-      ]
-    },
-    {
-      "name": "Mario David",
-      "github": "mariojmdavid",
-      "orcid": "0000-0003-1802-5356",
-      "email": "mario@lip.pt",
-      "affiliation": "Laboratory of Instrumentation and Experimental Particle Physics (LIP)"
-    },
-    {
-      "name": "Jorge Gomes",
-      "github": "jorge-lip",
-      "orcid": "0000-0002-9142-2596",
-      "email": "jorge@lip.pt",
-      "affiliation": "Laboratory of Instrumentation and Experimental Particle Physics (LIP)"
-    },
-    {
-      "name": "Joao Pina",
-      "github": "jopina",
-      "orcid": "0000-0001-8959-5044",
-      "email": "jpina@lip.pt",
-      "affiliation": "Laboratory of Instrumentation and Experimental Particle Physics (LIP)"
-    },
-    {
-      "name": "Samuel Bernardo",
-      "github": "samuelbernardolip",
-      "orcid": "0000-0002-6175-4012",
-      "email": "samuel@lip.pt",
-      "affiliation": "Laboratory of Instrumentation and Experimental Particle Physics (LIP)"
-    },
-    {
-      "name": "Isabel Campos",
-      "github": "isabel-campos-plasencia",
-      "orcid": "0000-0002-9350-0383",
-      "email": "isabel@campos-it.es",
-      "affiliations": [
-        "Spanish National Research Council (CSIC)",
-        "Institute of Physics of Cantabria (IFCA)"
-      ]
-    },
-    {
-      "name": "Germán Moltó",
-      "github": "gmolto",
-      "orcid": "0000-0002-8049-253X",
-      "email": "gmolto@dsic.upv.es",
-      "affiliations": [
-        "Universitat Politècnica de València (UPV)"
-      ]
-    },
-    {
-      "name": "Miguel Caballer",
-      "github": "micafer",
-      "orcid": "0000-0001-9393-3077",
-      "email": "micafer1@upv.es",
-      "affiliations": [
-        "Universitat Politècnica de València (UPV)"
-      ]
-    }
-  ]
+  "date": "29-04-2020"
 }
