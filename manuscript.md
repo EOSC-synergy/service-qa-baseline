@@ -8,7 +8,7 @@ keywords:
 - service deployment
 - agile development
 lang: en-US
-date-meta: '2022-02-04'
+date-meta: '2022-02-08'
 author-meta:
 - Pablo Orviz
 - Mario David
@@ -29,8 +29,8 @@ header-includes: |-
   <meta name="citation_title" content="A set of Common Service Quality Assurance Baseline Criteria for Research Projects" />
   <meta property="og:title" content="A set of Common Service Quality Assurance Baseline Criteria for Research Projects" />
   <meta property="twitter:title" content="A set of Common Service Quality Assurance Baseline Criteria for Research Projects" />
-  <meta name="dc.date" content="2022-02-04" />
-  <meta name="citation_publication_date" content="2022-02-04" />
+  <meta name="dc.date" content="2022-02-08" />
+  <meta name="citation_publication_date" content="2022-02-08" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />

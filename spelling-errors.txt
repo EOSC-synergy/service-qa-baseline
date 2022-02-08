@@ -48,7 +48,7 @@ NIST
 NIST’s
 Notational
 OpenAPI
-Orviz
+orviz
 OWASP
 OWASP’s
 PID
