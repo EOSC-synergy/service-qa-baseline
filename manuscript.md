@@ -8,7 +8,7 @@ keywords:
 - service deployment
 - agile development
 lang: en-US
-date-meta: '2022-02-09'
+date-meta: '2022-06-17'
 author-meta:
 - Pablo Orviz
 - Mario David
@@ -29,8 +29,8 @@ header-includes: |-
   <meta name="citation_title" content="A set of Common Service Quality Assurance Baseline Criteria for Research Projects" />
   <meta property="og:title" content="A set of Common Service Quality Assurance Baseline Criteria for Research Projects" />
   <meta property="twitter:title" content="A set of Common Service Quality Assurance Baseline Criteria for Research Projects" />
-  <meta name="dc.date" content="2022-02-09" />
-  <meta name="citation_publication_date" content="2022-02-09" />
+  <meta name="dc.date" content="2022-06-17" />
+  <meta name="citation_publication_date" content="2022-06-17" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -72,9 +72,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://EOSC-synergy.github.io/service-qa-baseline/" />
   <meta name="citation_pdf_url" content="https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://EOSC-synergy.github.io/service-qa-baseline/v/a2a027f087125726d50f215ac97015db1442f92f/" />
-  <meta name="manubot_html_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/a2a027f087125726d50f215ac97015db1442f92f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/a2a027f087125726d50f215ac97015db1442f92f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://EOSC-synergy.github.io/service-qa-baseline/v/b2d0d987d9add2ae3a99e7dbcfb8715a291a3b70/" />
+  <meta name="manubot_html_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/b2d0d987d9add2ae3a99e7dbcfb8715a291a3b70/" />
+  <meta name="manubot_pdf_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/b2d0d987d9add2ae3a99e7dbcfb8715a291a3b70/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -94,7 +94,7 @@ manubot-clear-requests-cache: false
 <br>
 ![](images/logo-SYNERGY.png){height="50px"}&nbsp;&nbsp;&nbsp;&nbsp;
 
-_A DOI-citable version of this manuscript is available at <http://hdl.handle.net/>_.
+_A DOI-citable version of this manuscript is available at <http://hdl.handle.net/10261/214441>_.
 
 
 <small><em>
