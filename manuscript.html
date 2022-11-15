@@ -13,7 +13,7 @@
   <meta name="author" content="Germán Moltó" />
   <meta name="author" content="Miguel Caballer" />
   <meta name="author" content="Vyacheslav Tykhonov" />
-  <meta name="dcterms.date" content="2022-06-17" />
+  <meta name="dcterms.date" content="2022-11-15" />
   <meta name="keywords" content="service quality assurance, devops, service quality baseline, service testing, service deployment, agile development" />
   <title>A set of Common Service Quality Assurance Baseline Criteria for Research Projects</title>
   <style>
@@ -55,8 +55,8 @@
   <meta name="citation_title" content="A set of Common Service Quality Assurance Baseline Criteria for Research Projects" />
   <meta property="og:title" content="A set of Common Service Quality Assurance Baseline Criteria for Research Projects" />
   <meta property="twitter:title" content="A set of Common Service Quality Assurance Baseline Criteria for Research Projects" />
-  <meta name="dc.date" content="2022-06-17" />
-  <meta name="citation_publication_date" content="2022-06-17" />
+  <meta name="dc.date" content="2022-11-15" />
+  <meta name="citation_publication_date" content="2022-11-15" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -98,9 +98,9 @@
   <meta name="citation_fulltext_html_url" content="https://EOSC-synergy.github.io/service-qa-baseline/" />
   <meta name="citation_pdf_url" content="https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://EOSC-synergy.github.io/service-qa-baseline/v/b2d0d987d9add2ae3a99e7dbcfb8715a291a3b70/" />
-  <meta name="manubot_html_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/b2d0d987d9add2ae3a99e7dbcfb8715a291a3b70/" />
-  <meta name="manubot_pdf_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/b2d0d987d9add2ae3a99e7dbcfb8715a291a3b70/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://EOSC-synergy.github.io/service-qa-baseline/v/32ad457ada7766e93520f92e903910fcd5f45578/" />
+  <meta name="manubot_html_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/32ad457ada7766e93520f92e903910fcd5f45578/" />
+  <meta name="manubot_pdf_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/32ad457ada7766e93520f92e903910fcd5f45578/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -114,7 +114,7 @@
 </header>
 <p><br>
 <img src="images/logo-SYNERGY.png" height="50" />    </p>
-<p><em>A DOI-citable version of this manuscript is available at <a href="http://hdl.handle.net/10261/214441" class="uri">http://hdl.handle.net/10261/214441</a></em>.</p>
+<p><em>A DOI-citable version of this manuscript is available at <a href="https://doi.org/10.20350/digitalCSIC/12533" class="uri">https://doi.org/10.20350/digitalCSIC/12533</a></em>.</p>
 <p><small><em>
 This manuscript
 was automatically generated
@@ -248,6 +248,11 @@ innovation programme under grant agreement number 857647.</p>
 <td>02/02/2022</td>
 <td>Issues: #6, #15, #23, #25, #27, #28, #29, #30, #31, #32, #33, #34, #35, #36</td>
 </tr>
+<tr class="even">
+<td>v2.1</td>
+<td>09/11/2022</td>
+<td>Issues: #43, #47, #49, #50</td>
+</tr>
 </tbody>
 </table>
 <h1 class="page_break_before" id="introduction">1. Introduction</h1>
@@ -325,7 +330,7 @@ compliance with the user requirements.</p></li>
 <p>The keywords “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”,
 “RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in RFC 2119
 <span class="citation" data-cites="e4CC51Rz">[<a href="#ref-e4CC51Rz" role="doc-biblioref">5</a>]</span>.</p>
-<h1 class="page_break_before" id="quality-criteria">6. Quality Criteria</h1>
+<h1 class="page_break_before" id="quality-criteria---automation">6. Quality Criteria - Automation</h1>
 <p>The following sections describe the quality conventions and best practices that apply to the
 development, operation and integration phases of a <strong>Service</strong> with a production infrastructure for
 research, such as the EOSC ecosystem. These guidelines rule the <strong>Service</strong> development and
@@ -333,7 +338,8 @@ operation process within the framework of the EOSC-Synergy project.</p>
 <p>The criteria in this document complements the criteria described in the “Software Quality Assurance
 baseline” <span class="citation" data-cites="rTsF78Zz">[<a href="#ref-rTsF78Zz" role="doc-biblioref">1</a>]</span>, while following the same pragmatic DevOps
 approach of automation.</p>
-<h2 id="dep">6.1. Automated Deployment [SvcQC.Dep]</h2>
+<h2 id="deployment">6.1. Deployment</h2>
+<h3 id="dep">6.1.1. Automated Deployment [SvcQC.Dep]</h3>
 <p>The automated deployment of <strong>Services</strong> implies the use of code to install and configure them in
 the target infrastructures. Infrastructure as Code (IaC) templates allow operations teams to treat
 service provisioning and deployment in a similar fashion as developers manage the software code.</p>
@@ -351,7 +357,8 @@ change being done.</p>
 <li><strong>[SvcQC.Dep03.1]</strong> IaC (unit) tests <strong>MUST</strong> be idempotent.</li>
 </ul></li>
 </ul>
-<h2 id="api01">6.2. API Testing [SvcQC.Api]</h2>
+<h2 id="dynamic-testing---black-box-testing">6.2. Dynamic testing - Black box testing</h2>
+<h3 id="api01">6.2.1. API Testing [SvcQC.Api]</h3>
 <p>Web services commonly use application programming interfaces (APIs) to expose the available features
 to external consumers, which can be either oriented to the end-user or suitable for
 machine-to-machine communications.</p>
@@ -373,7 +380,7 @@ outlined in <a href="#security">SvcQC.Sec</a> section.</p></li>
 <li><p><strong>[SvcQC.Api03]</strong> API testing <strong>SHOULD</strong> involve the use of test doubles, such as mock servers or
 stubs, that act as a validation layer for the incoming requests.</p></li>
 </ul>
-<h2 id="integration-testing-svcqc.int">6.3. Integration Testing [SvcQC.Int]</h2>
+<h3 id="integration-testing-svcqc.int">6.2.2. Integration Testing [SvcQC.Int]</h3>
 <p>Integration testing refers to the evaluation of the interactions among coupled <strong>Services</strong> or parts
 of a system that cooperate to achieve a given functionality.</p>
 <ul>
@@ -391,7 +398,7 @@ testbeds <strong>MAY</strong> be used to cope with the integration testing requi
 <li><p><strong>[SvcQC.Int04]</strong> In the presence of CI environments, integration tests <strong>SHOULD</strong> be suitable for
 the automated testing.</p></li>
 </ul>
-<h2 id="fun">6.4. Functional tests [SvcQC.Fun]</h2>
+<h3 id="fun">6.2.3. Functional tests [SvcQC.Fun]</h3>
 <p>Functional testing is a type of black-box testing. It involves the verification of the <strong>Service</strong>
 identified functionality, based on requested requirements and agreed design specifications. This
 type of <strong>Service</strong> testing focuses on the evaluation of the functionality that the <strong>Service</strong>
@@ -410,7 +417,7 @@ Interface (GUI) of the <strong>Service</strong>.</p></li>
 <li><p><strong>[SvcQC.Fun03]</strong> Functional tests <strong>SHOULD</strong> be provided by the developers of the underlying
 software.</p></li>
 </ul>
-<h2 id="performance-tests-svcqc.per">6.5. Performance tests [SvcQC.Per]</h2>
+<h3 id="performance-tests-svcqc.per">6.2.4. Performance tests [SvcQC.Per]</h3>
 <p>Performance testing verifies that the software meets the specified performance requirements and
 assesses performance characteristics - for instance, capacity and response time
 <span class="citation" data-cites="p50t2qyg">[<a href="#ref-p50t2qyg" role="doc-biblioref">7</a>]</span>.</p>
@@ -436,7 +443,7 @@ scale up or scale down when its load reaches the limits.</p></li>
 <li><p><strong>[SvcQC.Per04]</strong> Elasticity testing <strong>MAY</strong> be carried out to check the <strong>Service</strong> ability to
 scale out or scale in, depending on its demand or workload.</p></li>
 </ul>
-<h2 id="security">6.6. Security [SvcQC.Sec]</h2>
+<h2 id="security">6.2.5. Security [SvcQC.Sec]</h2>
 <p>Security assessment is essential for any production <strong>Service</strong>. While an effective implementation
 of the security requirements applies to every stage in the software development life cycle (SDLC)
 –especially effective at the source code level, as discussed in
@@ -498,7 +505,7 @@ Internet Security (CIS) <span class="citation" data-cites="CSzf9SEX">[<a href="#
 Assurance Requirements for Linux Application Container Deployments <span class="citation" data-cites="N3tB89XW">[<a href="#ref-N3tB89XW" role="doc-biblioref">15</a>]</span>
 <strong>MUST</strong> be considered for this task.</p></li>
 </ul></li>
-<li><p><strong>[SvcQC.Sec07]</strong> IaC testing, from <a href="#dep">SvcQC.Aud02</a> criterion, <strong>MUST</strong> cover the security
+<li><p><strong>[SvcQC.Sec07]</strong> IaC testing, from <a href="#dep">SvcQC.Dep02</a> criterion, <strong>MUST</strong> cover the security
 auditing of the IaC templates (<em>SaC</em>) in order to assure the deployment of secured <strong>Services</strong>.
 For all the third-party dependencies used in the IaC templates (including all kind of software
 artifacts, such as Linux packages or container-based images):</p>
@@ -516,7 +523,12 @@ operation. Whenever they are required, the relevant files <strong>MUST</strong> 
 <li><p><strong>[SvcQC.Sec07.6]</strong> World-readable files <strong>MUST NOT</strong> contain passwords.</p></li>
 </ul></li>
 </ul>
-<h2 id="documentation-svcqc.doc">6.7. Documentation [SvcQC.Doc]</h2>
+<h1 class="page_break_before" id="quality-criteria---operational">7. Quality Criteria - Operational</h1>
+<p>This section describes the operational quality criteria that is not fit for automation, but that
+contribute to the assessment of the quality of the service when it’s in an operational production
+state.</p>
+<h2 id="files-and-documents">7.1. Files and documents</h2>
+<h3 id="documentation-svcqc.doc">7.1.1. Documentation [SvcQC.Doc]</h3>
 <p>Documentation is an integral part of any Software or Service. For example, it describes how and what
 users can use and interact with it, or how operators can deploy, configure and manage a given
 Software or Service.</p>
@@ -557,11 +569,7 @@ RECOMMENDED content are:</p>
 </ul></li>
 </ul></li>
 </ul>
-<h1 class="page_break_before" id="operational-quality-criteria">7. Operational Quality Criteria</h1>
-<p>This section describes the operational quality criteria that is not fit for automation, but that
-contribute to the assessment of the quality of the service when it’s in an operational production
-state.</p>
-<h2 id="policies-svcqc.pol">7.1. Policies [SvcQC.Pol]</h2>
+<h3 id="policies-svcqc.pol">7.1.2. Policies [SvcQC.Pol]</h3>
 <p>Policy documents describe what are the user’s expected behavior when using the <strong>Service</strong>, how they
 can access it and what they can expect regarding privacy of their data.</p>
 <ul>
@@ -580,7 +588,8 @@ the <strong>Service</strong>. It states which rights the users (and/or customers
 processing of their data.</p></li>
 </ul></li>
 </ul>
-<h2 id="support-svcqc.sup">7.2. Support [SvcQC.Sup]</h2>
+<h2 id="support">7.2. Support</h2>
+<h2 id="support-svcqc.sup">7.2.1. Support [SvcQC.Sup]</h2>
 <p>Support is the formal way by which users and operators of the <strong>Service</strong> communicate with other
 operators and/or developers of the <strong>Service</strong> in case of problems, be it operational problems or
 bugs in the <strong>Service</strong> or underlying Software. Reporting of enhancements, improvements and
@@ -594,7 +603,8 @@ issues.</p></li>
 infrastructure where it is integrated.</p></li>
 <li><p><strong>[SvcQC.Sup04]</strong> The <strong>Service</strong> MAY include Service Level Agreement (SLA) with user communities.</p></li>
 </ul>
-<h2 id="monitoring-svcqc.mon">7.3. Monitoring [SvcQC.Mon]</h2>
+<h2 id="monitoring-and-metrics">7.3. Monitoring and Metrics</h2>
+<h3 id="monitoring-svcqc.mon">7.3.1. Monitoring [SvcQC.Mon]</h3>
 <p>Monitoring is a periodic testing of the <strong>Service</strong>. It requires a monitoring service from where
 tests are executed or sent and results of those tests are shown. The tests can be the same, in part
 or in total of the Functional, Security and Infrastructure tests. The technology used for the
@@ -619,11 +629,11 @@ of criteria <a href="#security">SvcQC.Sec06.1</a>.</p></li>
 </ul></li>
 <li><p><strong>[SvcQC.Mon03]</strong> The <strong>Service</strong> <strong>MUST</strong> be monitored for infrastructure-related criteria:</p>
 <ul>
-<li><strong>[SvcQC.Mon03.1]</strong> IaC (unit) tests <a href="#aud">SvcQC.Aud02</a> <strong>SHOULD</strong> be reused as monitoring
+<li><strong>[SvcQC.Mon03.1]</strong> IaC (unit) tests <a href="#dep">SvcQC.Dep02</a> <strong>SHOULD</strong> be reused as monitoring
 tests, thus avoiding duplication.</li>
 </ul></li>
 </ul>
-<h2 id="metrics-svcqc.met">7.4. Metrics [SvcQC.Met]</h2>
+<h3 id="metrics-svcqc.met">7.3.2. Metrics [SvcQC.Met]</h3>
 <p>A metric is a quantifiable measure used to track and assess the status of a specific process.</p>
 <p>In the case of <strong>Services</strong>, some relevant metrics are the number of users registered in the
 <strong>Service</strong>, or of active users. Also accounting is important to track resource usage per user or
@@ -715,6 +725,183 @@ collected. The metric unit depends on the type of service and infrastructure. An
 <dd>Version Control System
 </dd>
 </dl>
+<h1 class="page_break_before" id="a1.-annex">A1. Annex</h1>
+<p>The Quality Criteria described in this document follows a technology-agnostic approach. As such the
+choice of tools and services to implement the workflow for service quality assessment process, is up
+to the team or community developing or operating a given service.</p>
+<p>This annex describes an implementation approach to help service developers and operators, cover the
+Quality Criteria detailed in this document.</p>
+<h2 id="a1.1.-code-workflow">A1.1. Code workflow</h2>
+<p>The workflow for service quality assessment, is shown in Figure <a href="#fig:workflow">1</a>. It depicts a real
+case example, GitHub is used in particular to host the Dockerfiles to build the service Docker
+image, it also hosts the Ansible role for the service deployment and configuration, thus the
+IaC (Infrastructure as Code).</p>
+<p>The SQA as a Service (SQAaaS), is used to create the Jenkinsfile (pipeline) to be executed in the
+Jenkins service.</p>
+<p>Before the Jenkins pipeline execution phase, the figure depicts the build and upload/publish of the
+service Docker image in the Docker Hub.</p>
+<p>The Jenkins service is the main service used to execute he pipeline. The figure show a simple
+pipeline with automated deployment of the service, execution of functional tests and dynamic
+security tests, but in general the pipeline can be more complex and execute other tools to assess
+the other service quality criteria.</p>
+<p>The bottom part of the figure shows the services, tools and infrastructures that are actuated by the
+Jenkins pipeline execution: The <a href="https://www.grycap.upv.es/im">IM (Infrastructure Manager)</a> is the
+service that is used to deploy the service in cloud resources, fetching the corresponding Ansible
+role from Ansible Galaxy to instantiate and configure it.</p>
+<div id="fig:workflow" class="fignos">
+<figure>
+<img src="images/service-qa-workflow.png" alt="Figure 1: Workflow for service quality assessment" /><figcaption aria-hidden="true"><span>Figure 1:</span> Workflow for service quality assessment</figcaption>
+</figure>
+</div>
+<h2 id="a1.2.-services">A1.2. Services</h2>
+<p>As it can be seen in Figure <a href="#fig:workflow">1</a>, multiple services take part in the execution of the CI/CD
+pipelines. Table 1 shows the list of services used for the service for the Quality Criteria
+assessment detailed in this document.</p>
+<p>One of the most popular services for Software source code management is GitHub. It is uses Git
+as the Version Control System, branching and tag management.</p>
+<p>Ansible and Ansible-Galaxy are used in many software frameworks as deployment and configuration
+tools.</p>
+<p>The software is packed/built into executable artifacts that can be RPMs (case of RedHat and
+derivative OS), DEBs (case of Debian/Ubuntu and derivatives) and in many cases containers such as
+Docker images.</p>
+<p>The artifacts are provided, in general, by public repositories and most notably Docker Hub
+<span class="citation" data-cites="fei3c4fX">[<a href="#ref-fei3c4fX" role="doc-biblioref">16</a>/]</span> in the case of Docker images.</p>
+<p>Regarding the CI/CD automation, Jenkins pipelines can be easily composed through the SQAaaS platform
+and put into the git repositories to be used by the Jenkins CI service to perform the tests. The
+tools used in the CI automation are shown in section A1.2.</p>
+<p>Kubernetes is a container management platform where services or platforms can be deployed while the
+IM (Infrastructure Manager) can also be used to automatically deploy services both in cloud
+resources or kubernetes clusters.</p>
+<table>
+<colgroup>
+<col style="width: 18%" />
+<col style="width: 19%" />
+<col style="width: 9%" />
+<col style="width: 26%" />
+<col style="width: 26%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Service</th>
+<th>Usage</th>
+<th>Criteria</th>
+<th>Repo URL or documentation</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>GitHub</td>
+<td>VCS</td>
+<td><strong>SvcQC.Dep</strong></td>
+<td><a href="https://docs.github.com/" class="uri">https://docs.github.com/</a></td>
+<td>Source code repository - git</td>
+</tr>
+<tr class="even">
+<td>Ansible, Galaxy</td>
+<td>Install, Config</td>
+<td><strong>SvcQC.Dep</strong></td>
+<td><a href="https://docs.ansible.com/" class="uri">https://docs.ansible.com/</a></td>
+<td>Automated deployment and configuration</td>
+</tr>
+<tr class="odd">
+<td>SQAaaS platform</td>
+<td>Pipeline composition</td>
+<td><strong>All</strong></td>
+<td><a href="https://sqaaas.eosc-synergy.eu" class="uri">https://sqaaas.eosc-synergy.eu</a></td>
+<td>Pipeline composition for automatic tests</td>
+</tr>
+<tr class="even">
+<td>SQAaaS platform</td>
+<td>Assessment &amp; awarding</td>
+<td><strong>All</strong></td>
+<td><a href="https://sqaaas.eosc-synergy.eu" class="uri">https://sqaaas.eosc-synergy.eu</a></td>
+<td>Badge awarding</td>
+</tr>
+<tr class="odd">
+<td>Jenkins CI service</td>
+<td>Automated tests</td>
+<td><strong>All</strong></td>
+<td><a href="https://www.jenkins.io/" class="uri">https://www.jenkins.io/</a></td>
+<td>Execution of automatic tests</td>
+</tr>
+<tr class="even">
+<td>Docker Hub</td>
+<td>Docker images</td>
+<td>N.A.</td>
+<td><a href="https://hub.docker.com/" class="uri">https://hub.docker.com/</a></td>
+<td>Public repository of Docker images</td>
+</tr>
+<tr class="odd">
+<td>Kubernetes</td>
+<td>Service deployment/management</td>
+<td><strong>SvcQC.Dep</strong></td>
+<td><a href="https://kubernetes.io/" class="uri">https://kubernetes.io/</a></td>
+<td>Docker container management</td>
+</tr>
+<tr class="even">
+<td>Infrastructure Manager (IM)</td>
+<td>Service deployment</td>
+<td><strong>SvcQC.Dep</strong></td>
+<td><a href="https://www.grycap.upv.es/im" class="uri">https://www.grycap.upv.es/im</a></td>
+<td>Service deployment</td>
+</tr>
+</tbody>
+</table>
+<p>Table 1: Tools and services used to implement the Service QA criteria, also shown the criteria where
+applicable.</p>
+<h2 id="a1.3.-tools-for-cicd">A1.3. Tools for CI/CD</h2>
+<p>This section shows the tools being used in the CI pipelines and the criteria that it verifies. This
+list is based on the template file in
+<a href="https://github.com/EOSC-synergy/sqa-composer-templates/blob/main/tooling.json" class="uri">https://github.com/EOSC-synergy/sqa-composer-templates/blob/main/tooling.json</a>.</p>
+<table>
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 12%" />
+<col style="width: 10%" />
+<col style="width: 45%" />
+<col style="width: 21%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tool</th>
+<th>Criteria</th>
+<th>Language</th>
+<th>Repo URL or documentation</th>
+<th>Summary</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>kubectl</td>
+<td><strong>SvcQC.Dep</strong></td>
+<td>Agnostic</td>
+<td><a href="https://kubernetes.io/docs/tasks/tools/" class="uri">https://kubernetes.io/docs/tasks/tools/</a></td>
+<td>Automated deployment</td>
+</tr>
+<tr class="even">
+<td>im_client</td>
+<td><strong>SvcQC.Dep</strong></td>
+<td>RADL/TOSCA</td>
+<td><a href="https://imdocs.readthedocs.io/en/latest/client.html" class="uri">https://imdocs.readthedocs.io/en/latest/client.html</a></td>
+<td>Automated deployment</td>
+</tr>
+<tr class="odd">
+<td>ec3_client</td>
+<td><strong>SvcQC.Dep</strong></td>
+<td>RADL/TOSCA</td>
+<td><a href="https://github.com/grycap/ec3" class="uri">https://github.com/grycap/ec3</a></td>
+<td>Automated deployment</td>
+</tr>
+<tr class="even">
+<td>tox</td>
+<td><strong>SvcQC.Fun</strong></td>
+<td>Python</td>
+<td><a href="https://tox.readthedocs.io/" class="uri">https://tox.readthedocs.io/</a></td>
+<td>Automated test framework</td>
+</tr>
+</tbody>
+</table>
 <h1 class="page_break_before" id="references">References</h1>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" class="references csl-bib-body" role="doc-bibliography">
@@ -731,7 +918,7 @@ collected. The metric unit depends on the type of service and infrastructure. An
 <div class="csl-left-margin">4. </div><div class="csl-right-inline"><strong>Service Composition - Glossary | CSRC</strong> <div class="csl-block">CSRC Content Editor</div> <a href="https://csrc.nist.gov/glossary/term/Service_Composition">https://csrc.nist.gov/glossary/term/Service_Composition</a></div>
 </div>
 <div id="ref-e4CC51Rz" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">5. </div><div class="csl-right-inline"><strong>Information on RFC 2119 » RFC Editor</strong> <a href="https://www.rfc-editor.org/info/rfc2119">https://www.rfc-editor.org/info/rfc2119</a></div>
+<div class="csl-left-margin">5. </div><div class="csl-right-inline"><strong>Key words for use in RFCs to Indicate Requirement Levels</strong> <div class="csl-block">Scott O Bradner</div> <em>Internet Engineering Task Force</em> (1997-03) <a href="https://datatracker.ietf.org/doc/rfc2119/">https://datatracker.ietf.org/doc/rfc2119/</a></div>
 </div>
 <div id="ref-ANtiJgw6" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">6. </div><div class="csl-right-inline"><strong>Home</strong> <div class="csl-block">OpenAPI Initiative</div> <a href="https://www.openapis.org/">https://www.openapis.org/</a></div>
@@ -762,6 +949,9 @@ collected. The metric unit depends on the type of service and infrastructure. An
 </div>
 <div id="ref-N3tB89XW" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">15. </div><div class="csl-right-inline"><strong>Security assurance requirements for linux application container deployments</strong> <div class="csl-block">Ramaswamy Chandramouli</div> <em>National Institute of Standards and Technology</em> (2017-10-11) <a href="https://doi.org/gnkq9g">https://doi.org/gnkq9g</a> <div class="csl-block">DOI: <a href="https://doi.org/10.6028/nist.ir.8176">10.6028/nist.ir.8176</a></div></div>
+</div>
+<div id="ref-fei3c4fX" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">16. </div><div class="csl-right-inline"><strong>Docker Hub</strong> <a href="https://hub.docker.com/">https://hub.docker.com/</a></div>
 </div>
 </div>
 <!-- default theme -->

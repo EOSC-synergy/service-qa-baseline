@@ -1,7 +1,7 @@
 Acknowledgements
+Ansible
 APIs
 artefact
-Aud
 AUP
 backend
 Caballer
@@ -10,6 +10,7 @@ centric
 CIS
 citable
 CLI
+Config
 cron
 CSIC
 cyber
@@ -19,6 +20,7 @@ DDOS
 Dep
 deprovisioned
 DevOps
+Dockerfiles
 EOSC
 facto
 favours
@@ -33,11 +35,15 @@ HTTPS
 IaC
 IAST
 IFCA
+IM
 Init
 ITSM
+Jenkinsfile
 Joao
 jopina
 KNAW
+kubectl
+kubernetes
 mariojmdavid
 micafer
 microservice
@@ -48,7 +54,7 @@ NIST
 NIST’s
 Notational
 OpenAPI
-orviz
+Orviz
 OWASP
 OWASP’s
 PID
@@ -57,6 +63,10 @@ plasencia
 Politècnica
 PoLP
 programme
+RADL
+RedHat
+Repo
+RPMs
 runtime
 samuelbernardolip
 Scalability
@@ -65,9 +75,11 @@ SLA
 SMS
 SOA
 SQA
+SQAaaS
 SvcQC
 testbeds
 tikhonov
+tox
 TRLs
 Tykhonov
 Universitat

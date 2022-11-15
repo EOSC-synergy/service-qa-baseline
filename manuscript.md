@@ -8,7 +8,7 @@ keywords:
 - service deployment
 - agile development
 lang: en-US
-date-meta: '2022-06-17'
+date-meta: '2022-11-15'
 author-meta:
 - Pablo Orviz
 - Mario David
@@ -29,8 +29,8 @@ header-includes: |-
   <meta name="citation_title" content="A set of Common Service Quality Assurance Baseline Criteria for Research Projects" />
   <meta property="og:title" content="A set of Common Service Quality Assurance Baseline Criteria for Research Projects" />
   <meta property="twitter:title" content="A set of Common Service Quality Assurance Baseline Criteria for Research Projects" />
-  <meta name="dc.date" content="2022-06-17" />
-  <meta name="citation_publication_date" content="2022-06-17" />
+  <meta name="dc.date" content="2022-11-15" />
+  <meta name="citation_publication_date" content="2022-11-15" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -72,9 +72,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://EOSC-synergy.github.io/service-qa-baseline/" />
   <meta name="citation_pdf_url" content="https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://EOSC-synergy.github.io/service-qa-baseline/v/b2d0d987d9add2ae3a99e7dbcfb8715a291a3b70/" />
-  <meta name="manubot_html_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/b2d0d987d9add2ae3a99e7dbcfb8715a291a3b70/" />
-  <meta name="manubot_pdf_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/b2d0d987d9add2ae3a99e7dbcfb8715a291a3b70/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://EOSC-synergy.github.io/service-qa-baseline/v/32ad457ada7766e93520f92e903910fcd5f45578/" />
+  <meta name="manubot_html_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/32ad457ada7766e93520f92e903910fcd5f45578/" />
+  <meta name="manubot_pdf_url_versioned" content="https://EOSC-synergy.github.io/service-qa-baseline/v/32ad457ada7766e93520f92e903910fcd5f45578/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -94,7 +94,7 @@ manubot-clear-requests-cache: false
 <br>
 ![](images/logo-SYNERGY.png){height="50px"}&nbsp;&nbsp;&nbsp;&nbsp;
 
-_A DOI-citable version of this manuscript is available at <http://hdl.handle.net/10261/214441>_.
+_A DOI-citable version of this manuscript is available at <https://doi.org/10.20350/digitalCSIC/12533>_.
 
 
 <small><em>
@@ -221,6 +221,7 @@ innovation programme under grant agreement number 857647.
 | v1.0-beta03  | 09/06/2020 | beta03 draft version |
 | v1.0         | 12/06/2020 | v1.0 release         |
 | v2.0         | 02/02/2022 | Issues: #6, #15, #23, #25, #27, #28, #29, #30, #31, #32, #33, #34, #35, #36 |
+| v2.1         | 09/11/2022 | Issues: #43, #47, #49, #50 |
 
 
 # 1. Introduction {.page_break_before}
@@ -320,7 +321,7 @@ The keywords "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SH
 [@https://www.rfc-editor.org/info/rfc2119].
 
 
-# 6. Quality Criteria {.page_break_before}
+# 6. Quality Criteria - Automation {.page_break_before}
 
 The following sections describe the quality conventions and best practices that apply to the
 development, operation and integration phases of a **Service** with a production infrastructure for
@@ -331,7 +332,9 @@ The criteria in this document complements the criteria described in the "Softwar
 baseline" [@https://digital.csic.es/handle/10261/160086], while following the same pragmatic DevOps
 approach of automation.
 
-## 6.1. Automated Deployment [SvcQC.Dep] {#dep}
+## 6.1. Deployment
+
+### 6.1.1. Automated Deployment [SvcQC.Dep] {#dep}
 
 The automated deployment of **Services** implies the use of code to install and configure them in
 the target infrastructures. Infrastructure as Code (IaC) templates allow operations teams to treat
@@ -352,7 +355,9 @@ simplifies maintenance and enhances repeatability and reliability.
 
   * **[SvcQC.Dep03.1]** IaC (unit) tests **MUST** be idempotent.
 
-## 6.2. API Testing [SvcQC.Api] {#api01}
+## 6.2. Dynamic testing - Black box testing
+
+### 6.2.1. API Testing [SvcQC.Api] {#api01}
 
 Web services commonly use application programming interfaces (APIs) to expose the available features
 to external consumers, which can be either oriented to the end-user or suitable for
@@ -378,7 +383,7 @@ an API specification.
 * **[SvcQC.Api03]** API testing **SHOULD** involve the use of test doubles, such as mock servers or
   stubs, that act as a validation layer for the incoming requests.
 
-## 6.3. Integration Testing [SvcQC.Int]
+### 6.2.2. Integration Testing [SvcQC.Int]
 
 Integration testing refers to the evaluation of the interactions among coupled **Services** or parts
 of a system that cooperate to achieve a given functionality.
@@ -395,11 +400,11 @@ of a system that cooperate to achieve a given functionality.
 
 * **[SvcQC.Int03]** On lack of automation, ad-hoc pilot **Service** infrastructures and/or local
   testbeds **MAY** be used to cope with the integration testing requirements.
-  
+
 * **[SvcQC.Int04]** In the presence of CI environments, integration tests **SHOULD** be suitable for
   the automated testing.
 
-## 6.4. Functional tests [SvcQC.Fun] {#fun}
+### 6.2.3. Functional tests [SvcQC.Fun] {#fun}
 
 Functional testing is a type of black-box testing. It involves the verification of the **Service**
 identified functionality, based on requested requirements and agreed design specifications. This
@@ -421,7 +426,7 @@ exposes, leaving apart any internal design analysis or side-effects to external 
 * **[SvcQC.Fun03]** Functional tests **SHOULD** be provided by the developers of the underlying
   software.
 
-## 6.5. Performance tests [SvcQC.Per]
+### 6.2.4. Performance tests [SvcQC.Per]
 
 Performance testing verifies that the software meets the specified performance requirements and
 assesses performance characteristics - for instance, capacity and response time
@@ -454,7 +459,7 @@ Elasticity is based on how quickly **Services** in an infrastructure are able to
 * **[SvcQC.Per04]** Elasticity testing **MAY** be carried out to check the **Service** ability to
   scale out or scale in, depending on its demand or workload.
 
-## 6.6. Security [SvcQC.Sec] {#security}
+## 6.2.5. Security [SvcQC.Sec] {#security}
 
 Security assessment is essential for any production **Service**. While an effective implementation
 of the security requirements applies to every stage in the software development life cycle (SDLC)
@@ -523,7 +528,7 @@ deployments.
     Assurance Requirements for Linux Application Container Deployments [@doi:10.6028/NIST.IR.8176]
     **MUST** be considered for this task.
 
-* **[SvcQC.Sec07]** IaC testing, from [SvcQC.Aud02](#dep) criterion, **MUST** cover the security
+* **[SvcQC.Sec07]** IaC testing, from [SvcQC.Dep02](#dep) criterion, **MUST** cover the security
   auditing of the IaC templates (_SaC_) in order to assure the deployment of secured **Services**.
   For all the third-party dependencies used in the IaC templates (including all kind of software
   artifacts, such as Linux packages or container-based images):
@@ -545,7 +550,16 @@ deployments.
 
   * **[SvcQC.Sec07.6]** World-readable files **MUST NOT** contain passwords.
 
-## 6.7. Documentation [SvcQC.Doc]
+
+# 7. Quality Criteria - Operational {.page_break_before}
+
+This section describes the operational quality criteria that is not fit for automation, but that
+contribute to the assessment of the quality of the service when it's in an operational production
+state.
+
+## 7.1. Files and documents
+
+### 7.1.1. Documentation [SvcQC.Doc]
 
 Documentation is an integral part of any Software or Service. For example, it describes how and what
 users can use and interact with it, or how operators can deploy, configure and manage a given
@@ -602,14 +616,7 @@ Software or Service.
 
     * Command-line (CLI) reference (if applicable).
 
-
-# 7. Operational Quality Criteria {.page_break_before}
-
-This section describes the operational quality criteria that is not fit for automation, but that
-contribute to the assessment of the quality of the service when it's in an operational production
-state.
-
-## 7.1. Policies [SvcQC.Pol]
+### 7.1.2. Policies [SvcQC.Pol]
 
 Policy documents describe what are the user's expected behavior when using the **Service**, how they
 can access it and what they can expect regarding privacy of their data.
@@ -630,7 +637,9 @@ can access it and what they can expect regarding privacy of their data.
     the **Service**. It states which rights the users (and/or customers) have regarding the
     processing of their data.
 
-## 7.2. Support [SvcQC.Sup]
+## 7.2. Support
+
+## 7.2.1. Support [SvcQC.Sup]
 
 Support is the formal way by which users and operators of the **Service** communicate with other
 operators and/or developers of the **Service** in case of problems, be it operational problems or
@@ -648,7 +657,9 @@ documentation issues.
 
 * **[SvcQC.Sup04]** The **Service** MAY include Service Level Agreement (SLA) with user communities.
 
-## 7.3. Monitoring [SvcQC.Mon]
+## 7.3. Monitoring and Metrics
+
+### 7.3.1. Monitoring [SvcQC.Mon]
 
 Monitoring is a periodic testing of the **Service**. It requires a monitoring service from where
 tests are executed or sent and results of those tests are shown. The tests can be the same, in part
@@ -677,10 +688,10 @@ from the infrastructure(s), where the **Service** is foreseen to be integrated.
 
 * **[SvcQC.Mon03]** The **Service** **MUST** be monitored for infrastructure-related criteria:
 
-  * **[SvcQC.Mon03.1]** IaC (unit) tests [SvcQC.Aud02](#aud) **SHOULD** be reused as monitoring
+  * **[SvcQC.Mon03.1]** IaC (unit) tests [SvcQC.Dep02](#dep) **SHOULD** be reused as monitoring
     tests, thus avoiding duplication.
 
-## 7.4. Metrics [SvcQC.Met]
+### 7.3.2. Metrics [SvcQC.Met]
 
 A metric is a quantifiable measure used to track and assess the status of a specific process.
 
@@ -777,6 +788,95 @@ __SOA__
 
 __VCS__
 : Version Control System
+
+
+# A1. Annex {.page_break_before}
+
+The Quality Criteria described in this document follows a technology-agnostic approach. As such the
+choice of tools and services to implement the workflow for service quality assessment process, is up
+to the team or community developing or operating a given service.
+
+This annex describes an implementation approach to help service developers and operators, cover the
+Quality Criteria detailed in this document.
+
+## A1.1. Code workflow
+
+The workflow for service quality assessment, is shown in Figure @fig:workflow. It depicts a real
+case example, GitHub is used in particular to host the Dockerfiles to build the service Docker
+image, it also hosts the Ansible role for the service deployment and configuration, thus the
+IaC (Infrastructure as Code).
+
+The SQA as a Service (SQAaaS), is used to create the Jenkinsfile (pipeline) to be executed in the
+Jenkins service.
+
+Before the Jenkins pipeline execution phase, the figure depicts the build and upload/publish of the
+service Docker image in the Docker Hub.
+
+The Jenkins service is the main service used to execute he pipeline. The figure show a simple
+pipeline with automated deployment of the service, execution of functional tests and dynamic
+security tests, but in general the pipeline can be more complex and execute other tools to assess
+the other service quality criteria.
+
+The bottom part of the figure shows the services, tools and infrastructures that are actuated by the
+Jenkins pipeline execution: The [IM (Infrastructure Manager)](https://www.grycap.upv.es/im) is the
+service that is used to deploy the service in cloud resources, fetching the corresponding Ansible
+role from Ansible Galaxy to instantiate and configure it.
+
+![Workflow for service quality assessment](images/service-qa-workflow.png){height="700px"}{#fig:workflow}
+
+## A1.2. Services
+
+As it can be seen in Figure @fig:workflow, multiple services take part in the execution of the CI/CD
+pipelines. Table 1 shows the list of services used for the service for the Quality Criteria
+assessment detailed in this document.
+
+One of the most popular services for Software source code management is GitHub. It is uses Git
+as the Version Control System, branching and tag management.
+
+Ansible and Ansible-Galaxy are used in many software frameworks as deployment and configuration
+tools.
+
+The software is packed/built into executable artifacts that can be RPMs (case of RedHat and
+derivative OS), DEBs (case of Debian/Ubuntu and derivatives) and in many cases containers such as
+Docker images.
+
+The artifacts are provided, in general, by public repositories and most notably Docker Hub
+[@url:https://hub.docker.com/] in the case of Docker images.
+
+Regarding the CI/CD automation, Jenkins pipelines can be easily composed through the SQAaaS platform
+and put into the git repositories to be used by the Jenkins CI service to perform the tests. The
+tools used in the CI automation are shown in section A1.2.
+
+Kubernetes is a container management platform where services or platforms can be deployed while the
+IM (Infrastructure Manager) can also be used to automatically deploy services both in cloud
+resources or kubernetes clusters.
+
+| Service                     | Usage                         | Criteria      |  Repo URL or documentation               | Comment                                  |
+|-----------------------------|-------------------------------|---------------|------------------------------------------|------------------------------------------|
+| GitHub                      | VCS                           | **SvcQC.Dep** | <https://docs.github.com/>               | Source code repository - git             |
+| Ansible, Galaxy             | Install, Config               | **SvcQC.Dep** | <https://docs.ansible.com/>              | Automated deployment and configuration   |
+| SQAaaS platform             | Pipeline composition          | **All**       | <https://sqaaas.eosc-synergy.eu>         | Pipeline composition for automatic tests |
+| SQAaaS platform             | Assessment & awarding         | **All**       | <https://sqaaas.eosc-synergy.eu>         | Badge awarding                           |
+| Jenkins CI service          | Automated tests               | **All**       | <https://www.jenkins.io/>                | Execution of automatic tests             |
+| Docker Hub                  | Docker images                 | N.A.          | <https://hub.docker.com/>                | Public repository of Docker images       |
+| Kubernetes                  | Service deployment/management |**SvcQC.Dep**  | <https://kubernetes.io/>                 | Docker container management              |
+| Infrastructure Manager (IM) | Service deployment            |**SvcQC.Dep**  | <https://www.grycap.upv.es/im> | Service deployment                       |
+
+Table 1: Tools and services used to implement the Service QA criteria, also shown the criteria where
+applicable.
+
+## A1.3. Tools for CI/CD
+
+This section shows the tools being used in the CI pipelines and the criteria that it verifies. This
+list is based on the template file in
+<https://github.com/EOSC-synergy/sqa-composer-templates/blob/main/tooling.json>.
+
+| Tool       | Criteria      | Language   | Repo URL or documentation                             | Summary                  |
+|------------|---------------|------------|-------------------------------------------------------|--------------------------|
+| kubectl    | **SvcQC.Dep** | Agnostic   | <https://kubernetes.io/docs/tasks/tools/>             | Automated deployment     |
+| im_client  | **SvcQC.Dep** | RADL/TOSCA | <https://imdocs.readthedocs.io/en/latest/client.html> | Automated deployment     |
+| ec3_client | **SvcQC.Dep** | RADL/TOSCA | <https://github.com/grycap/ec3>                       | Automated deployment     |
+| tox        | **SvcQC.Fun** | Python     | <https://tox.readthedocs.io/>                         | Automated test framework |
 
 
 # References {.page_break_before}
