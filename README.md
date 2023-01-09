@@ -4,6 +4,8 @@
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf)
 [![GitHub Actions Status](https://github.com/EOSC-synergy/service-qa-baseline/workflows/Manubot/badge.svg)](https://github.com/EOSC-synergy/service-qa-baseline/actions)
 
+## Main contributing project and institutes
+
 <img src="content/images/logo-SYNERGY.png" height="50">
 
 <p float="left">
