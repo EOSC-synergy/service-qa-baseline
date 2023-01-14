@@ -4,16 +4,14 @@
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://EOSC-synergy.github.io/service-qa-baseline/manuscript.pdf)
 [![GitHub Actions Status](https://github.com/EOSC-synergy/service-qa-baseline/workflows/Manubot/badge.svg)](https://github.com/EOSC-synergy/service-qa-baseline/actions)
 
-## Main contributing project and institutes
+<img src="https://github.com/EOSC-synergy/service-qa-baseline/blob/master/content/images/logo-SYNERGY.png" height="80">
 
-<img src="content/images/logo-SYNERGY.png" height="50">
-
+## Institutions owning the result
 <p float="left">
-    <img src="content/images/logo-LIP.png" height="50">
-    <img src="content/images/logo-csic.png" height="50">
-    <img src="content/images/logo-UPV.png" height="50">
+    <img src="https://github.com/EOSC-synergy/service-qa-baseline/blob/master/content/images/logo-LIP.png" height="80">
+    <img src="https://github.com/EOSC-synergy/service-qa-baseline/blob/master/content/images/logo-csic.png" height="80">
+    <img src="https://github.com/EOSC-synergy/service-qa-baseline/blob/master/content/images/logo-UPV.png" height="80">
 </p>
-
 ## Motivation
 
 Service development, provisioning, operation and integration into large
