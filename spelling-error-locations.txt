@@ -1,10 +1,8 @@
 content/00.front-matter.md:11:citable
 content/00.front-matter.md:11:https
-content/00.front-matter.md:17:https
-content/00.front-matter.md:21:https
-content/00.front-matter.md:33:https
-content/00.front-matter.md:37:https
-content/00.front-matter.md:41:https
+content/00.front-matter.md:22:https
+content/00.front-matter.md:26:https
+content/00.front-matter.md:30:https
 content/02.0.copyright-ack.md:3:EOSC
 content/02.0.copyright-ack.md:5:Acknowledgements
 content/02.0.copyright-ack.md:7:EOSC

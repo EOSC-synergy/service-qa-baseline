@@ -43,7 +43,7 @@ Joao
 jopina
 KNAW
 kubectl
-kubernetes
+Kubernetes
 mariojmdavid
 micafer
 microservice
